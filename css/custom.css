@@ -9,11 +9,19 @@
  	background: #F5F5F5;
  }
 
- .main-page-photo-caption,
- .views-field-field-image-description {
+.caption,
+.main-page-photo-caption,
+.views-field-field-image-description,
+.copyright {
  	font-size: 75%;
  	padding: 5px;
  }
+
+ .view-homepage-photo {
+ 	float: right;
+ } 
+
+
 
 #header-wrapper {
 	background-color: #8C2D2A;
@@ -646,13 +654,17 @@ background-color : #999999;
 
 }
 
-.main-page-float-right {
+.main-page-float-right,
+.view-display-id-entity_view_1 {
   float: right;
   background-color: #F1F1F1;
   border: 1px solid #C8C8C8;
   padding: 5px;
   width: 400px;
 }
+
+
+
 
 .view-handbook-images {
   float: right;
