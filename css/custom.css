@@ -206,7 +206,8 @@ ul.pager a.views-throbbing {
   p.See-also-text,
   p.See-also-Text,
   p.See-also-Intro,
-  p.See-also-intro {
+  p.See-also-intro,
+  p.See-also {
     margin: 0;
   } 
 
@@ -247,24 +248,34 @@ margin-left : 18px;
 
 }
 span.regular { 
-
+	font-style: normal;
 }
-span.superscript { 
+.superscript { 
 vertical-align : super;
-
+font-size: .875em;
 }
-span.bold { 
+
+.subscript { 
+vertical-align : sub;
+font-size: .875em;
+}
+.bold { 
 font-weight : bold;
 
 }
-span.italic { 
+.italic { 
 font-style : italic;
 
 }
-span.bold-italic { 
+.bold-italic { 
 font-weight : bold;
 font-style : italic;
 
+}
+
+
+.Division-line-below {
+	border-bottom: 1px solid #ccc;
 }
 
 p.No-Paragraph-Style { 
@@ -414,10 +425,7 @@ margin : 0px 0px 2px 43px;
 }
 p.subhead2 { 
 font-weight : bold;
-font-size : 1.17em;
-text-align : left;
-text-indent : 0px;
-margin : 5px 0px;
+font-size: 1.4em;
 
 }
 p.crop-and-pest-name { 
@@ -429,20 +437,9 @@ margin : 12px 0px 2px 0px;
 }
 p.pest-sci-name { 
 font-style : italic;
-text-align : left;
-text-indent : 0px;
-margin : 0px;
-
+margin: 0;
 }
-p.mgmt-head { 
-  font-size: 1.1em;
 
-font-weight : bold;
-text-align : left;
-text-indent : 0px;
-
-
-}
 li.controls1 { 
 text-align : left;
 margin-right : 0px;
@@ -450,30 +447,21 @@ margin-top : 1px;
 margin-bottom : 1px;
 
 }
-p.Includes { 
+p.Includes,
+p.mgmt-head,
+p.nursery-pests { 
 font-weight : bold;
-text-align : left;
-text-indent : 0px;
-margin : 2px 0px 0px 0px;
+font-size: 1.1em;
+}
+ 
+}
+p.subhead3,
+p.subhead-xmas-tree { 
+font-weight : bold;
+font-size: 1.3em;
 
 }
-p.subhead3 { 
-text-align : left;
-text-indent : 0px;
-margin : 9px 0px 0px 0px;
 
-}
-p.See-also { 
-font-style : italic;
-text-align : left;
-text-indent : 0px;
-margin : 4px 0px 0px 9px;
-
-}
-p.See-also-link { 
-text-align : left;
-text-indent : 0px;
-margin : 0px 0px 4px 9px;
 
 }
 li.indented-list { 
@@ -504,18 +492,7 @@ text-indent : 0px;
 margin : 2px 0px 6px 0px;
 
 }
-p.revision-date { 
-text-align : left;
-text-indent : 0px;
-margin : 5px 0px 2px 0px;
 
-}
-p.general-warning--with-lines- { 
-text-align : left;
-text-indent : 0px;
-margin : 18px 0px;
-
-}
 li.controls2 { 
 text-align : left;
 margin-right : 0px;
@@ -525,10 +502,6 @@ margin-bottom : 1px;
 }
 p.mgmt-subhead { 
 font-style : italic;
-text-align : left;
-text-indent : 0px;
-margin : 4px 0px 0px 0px;
-
 }
 li.controls3 { 
 text-align : left;
@@ -554,22 +527,20 @@ margin : 0px;
 p.APPLESTAGE { 
 font-weight : bold;
 font-style : italic;
-text-align : left;
-text-indent : 0px;
-margin : 0px;
-
+font-size: 1.1em;
+text-transform: uppercase;
 }
+
 p.Basic-Paragraph { 
 text-align : left;
 text-indent : 0px;
 margin : 0px;
 
 }
-p.subhead4 { 
-font-weight : bold;
-text-align : left;
-text-indent : 0px;
-margin : 4px 0px 0px 0px;
+p.subhead4,
+p.subhead4--with-rule-below- { 
+font-size: 1.1em;
+font-weight: bold;
 
 }
 p.indented-list--no-numbers- { 
@@ -589,12 +560,7 @@ text-align : left;
 text-indent : 0px;
 
 }
-p.nursery-pests { 
-font-weight : bold;
-text-align : left;
-text-indent : 0px;
 
-}
 p.subhead-xmas-tree { 
 text-align : left;
 text-indent : 0px;
@@ -661,6 +627,7 @@ background-color : #999999;
   border: 1px solid #C8C8C8;
   padding: 5px;
   width: 400px;
+  margin: 0 0 10px 10px;
 }
 
 
@@ -709,3 +676,168 @@ li#menu-480-1 {
 #breadcrumb h2 {
 	display: none;
 }
+
+.field-name-field-author,
+.field-name-field-revision-date {
+	font-size: .875em;
+}
+
+.field-name-field-revision-date {
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+article header {
+	margin-bottom: 0;
+}
+
+.field-name-field-article-options {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	font-size: .875em;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding-left: 20px;
+}
+
+/*  insect table styles */
+p.table-title {
+	font-family : Arial, sans-serif;
+	font-weight : bold;
+	font-style : normal;
+	font-size : 0.83em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.2;
+	text-align : left;
+	color : #000000;
+	text-indent : 0px;
+	margin : 12px 0px 9px 0px;
+}
+p.table-column-head {
+	font-family : Arial, sans-serif;
+	font-weight : bold;
+	font-style : normal;
+	font-size : 0.75em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.2;
+	text-align : center;
+	color : #000000;
+	text-indent : 0px;
+	margin : 12px 0px 3px 0px;
+}
+p.table-row-head {
+	font-family : Arial, sans-serif;
+	font-weight : bold;
+	font-style : normal;
+	font-size : 0.75em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.2;
+	text-align : center;
+	color : #000000;
+	text-indent : 0px;
+	margin : 12px 0px 3px 0px;
+}
+p.table-text {
+	font-family : "Times New Roman", serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 0.75em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.2;
+	text-align : left;
+	color : #000000;
+	text-indent : 0px;
+	margin : 0px;
+}
+p.table-text-centered {
+	font-size : 0.75em;
+	line-height : 1.2;
+	text-align : center;
+	margin : 0px;
+}
+
+p.table-footnote {
+	font-family : "Times New Roman", serif;
+	font-weight : normal;
+	font-style : normal;
+	font-size : 0.67em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.2;
+	text-align : left;
+	color : #000000;
+	text-indent : 0px;
+	margin : 5px 0px 1px 0px;
+}
+
+p.table-column-head-left {
+	font-family : Arial, sans-serif;
+	font-weight : bold;
+	font-style : normal;
+	font-size : 0.75em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.2;
+	text-align : left;
+	color : #000000;
+	text-indent : 0px;
+	margin : 12px 0px 3px 0px;
+}
+p.table-row-head-left {
+	font-family : Arial, sans-serif;
+	font-weight : bold;
+	font-style : normal;
+	font-size : 0.75em;
+	text-decoration : none;
+	font-variant : normal;
+	line-height : 1.2;
+	text-align : left;
+	color : #000000;
+	text-indent : 0px;
+	margin : 12px 0px 3px 0px;
+}
+table.Basic-Table {
+	border-collapse : collapse;
+	border: none;
+	margin-top : 4px;
+	margin-bottom : -4px;
+}
+td {
+	vertical-align: top;
+}
+td.Cell-Style-1 {
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 5px;
+	padding-right : 5px;
+	border: 1px solid;
+
+}
+td.Cell-Style-2 {
+	background-color : #cccccc;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 5px;
+	padding-right : 5px;
+	border: 1px solid;
+}
+td.Cell-Style-3 {
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 5px;
+	padding-right : 5px;
+	border: none;
+}
+td.Cell-Style-4 {
+	background-color : #cccccc;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-left : 5px;
+	padding-right : 5px;
+	border: none;
+}
+
