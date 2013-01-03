@@ -425,8 +425,8 @@ margin : 12px 0px 2px 0px;
 
 }
 p.pest-sci-name { 
-font-style : italic;
-margin: 0;
+	font-style : italic;
+	margin-bottom: 0 0 0 0.75em;
 }
 
 li.controls1 { 
@@ -442,7 +442,11 @@ p.nursery-pests {
 font-weight : bold;
 font-size: 1.1em;
 }
- 
+
+.Includes {
+	margin-bottom: 0;
+}
+
 }
 p.subhead3,
 p.subhead-xmas-tree { 
@@ -826,7 +830,6 @@ div.view-homepage-photo {
 	float: right;
 }
 
-.views-field-field-image-copyright,
 .copyright {
 	font-size: 70%;
  	padding: 5px;
@@ -849,8 +852,19 @@ div.view-homepage-photo {
   margin: 0 0 10px 10px;
 }
 
+/* Set nested list list-style-types */
 
+ul li.controls1 {
 
+}
+
+ul li.controls2 {
+
+}
+
+ul li.controls3 {
+	margin: 0 0 0 20px;
+}
 
 .view-handbook-images {
   float: right;
