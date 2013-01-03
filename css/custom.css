@@ -874,7 +874,12 @@ ul li.controls3 {
   width: 210px;
 }
 
-
+.views-field-edit-node, 
+.views-field-edit-node a {
+	float: right;
+	font-size: 85%;
+	color: #8c2d2a;
+}
 
 
 
