@@ -701,7 +701,6 @@ p.table-column-head {
 	margin : 12px 0px 3px 0px;
 }
 p.table-row-head {
-	font-family : Arial, sans-serif;
 	font-weight : bold;
 	font-style : normal;
 	font-size : 0.75em;
@@ -714,7 +713,6 @@ p.table-row-head {
 	margin : 12px 0px 3px 0px;
 }
 p.table-text {
-	font-family : "Times New Roman", serif;
 	font-weight : normal;
 	font-style : normal;
 	font-size : 0.75em;
@@ -734,7 +732,6 @@ p.table-text-centered {
 }
 
 p.table-footnote {
-	font-family : "Times New Roman", serif;
 	font-weight : normal;
 	font-style : normal;
 	font-size : 0.67em;
@@ -748,7 +745,6 @@ p.table-footnote {
 }
 
 p.table-column-head-left {
-	font-family : Arial, sans-serif;
 	font-weight : bold;
 	font-style : normal;
 	font-size : 0.75em;
@@ -761,7 +757,6 @@ p.table-column-head-left {
 	margin : 12px 0px 3px 0px;
 }
 p.table-row-head-left {
-	font-family : Arial, sans-serif;
 	font-weight : bold;
 	font-style : normal;
 	font-size : 0.75em;
@@ -900,6 +895,6 @@ ul li.controls3 {
 
 div.view-related-links ul li {
 	list-style-image: url('images/arrow-double.png');
-	border-bottom: 1px solid #616161;
+	/*border-bottom: 1px solid #616161;*/
 }
 
