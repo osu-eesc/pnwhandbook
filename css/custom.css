@@ -881,19 +881,25 @@ ul li.controls3 {
 	color: #8c2d2a;
 }
 
-
-
-/*.caption,
-.main-page-photo-caption,
-.views-field-field-image-description,
-.copyright {
- 	font-size: 75%;
- 	padding: 5px;
+/* links array style */
+ ul.links {
+ 	list-style-type: none;
+ 	text-align: right;
  }
 
- .view-homepage-photo {
- 	float: right;
- } */
+ ul.links li {
+ 	display: inline-block;
+ 	padding-right: 10px;
+ }
 
+/* hide book links */
+ ul.links li.book_printer,
+ ul.links li.book_add_child {
+ 	display: none;
+ }
 
+div.view-related-links ul li {
+	list-style-image: url('images/arrow-double.png');
+	border-bottom: 1px solid #616161;
+}
 
