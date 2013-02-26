@@ -9,6 +9,15 @@
  	background: #F5F5F5;
  }
 
+.front .field-name-title {
+	display: none;
+}
+
+/*  note: this should match the h2 title style */
+.field-name-field-styled-title {
+	font-size: 1.4em;
+	font-weight: bold;
+}
 
 
 #header-wrapper {
@@ -861,13 +870,34 @@ ul li.controls3 {
 	margin: 0 0 0 20px;
 }
 
-.view-handbook-images {
+.view-related-images {
   float: right;
   background-color: #F1F1F1;
   border: 1px solid #C8C8C8;
   padding: 5px;
   width: 210px;
 }
+
+/* reorder images display */
+.view-display-id-reorder_images  {
+  float: left;
+  background-color: #F1F1F1;
+  border: 1px solid #C8C8C8;
+  padding: 5px;
+  width: 65%;
+}
+
+table#draggableviews-table-related_images-reorder_images.views-table tbody tr td.views-field-field-image {
+	width: 225px;
+}
+
+
+
+table#draggableviews-table-related_images-reorder_images.views-table tbody tr td.views-field-field-image-description {
+	width: 50%;
+}
+
+
 
 .views-field-edit-node, 
 .views-field-edit-node a {
@@ -897,4 +927,41 @@ div.view-related-links ul li {
 	list-style-image: url('images/arrow-double.png');
 	/*border-bottom: 1px solid #616161;*/
 }
+
+div.caption .c-name {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+div span.detail-3-4 {
+	font-style: italic;
+}
+
+div .c-description {
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+div.views-field-field-photo-copyright .copyright,
+div.views-field-field-photo-copyright .copyright a {
+	font-size: 0.8em;
+	line-height: 1;
+	padding-top: 0;
+}
+
+/* insect caption styles */
+/*<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-field-image">
+<div class="views-field views-field-field-image-description">
+<div class="field-content caption">
+<div class="c-name">Granary weevil</div>
+<div>
+<div class="c-description">Adult</div>
+</div>
+</div>
+<div class="views-field views-field-field-photo-copyright">
+<div class="views-field views-field-edit-node">
+</div>
+*/
+
 

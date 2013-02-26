@@ -1,5 +1,5 @@
 <?php // AT Commerce ?>
-<div id="page-wrapper">
+<div id="page-wrapper_aaaa">
   <div id="page" class="<?php print $classes; ?>">
 
     <?php if($page['draw']): ?>
@@ -114,7 +114,13 @@
                 <?php print render($title_prefix); ?>
                 <?php if ($title && !isset($node)): ?>
                   <header>
-                    <h1 id="page-title"><?php print $title; ?></h1>
+                    <h1 id="page-title">
+                      <?php 
+                        if (!$is_front) { 
+                          //print $title; 
+                        }
+                      ?>
+                    </h1>
                   </header>
                 <?php endif; ?>
                 <?php print render($title_suffix); ?>
