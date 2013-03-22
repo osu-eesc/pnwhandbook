@@ -836,8 +836,16 @@ div.view-homepage-photo {
 
 .copyright {
 	font-size: 70%;
- 	padding: 5px;
+ 	padding: 0 5px;
+	line-height: 1;
 }
+
+/*div.views-field-field-photo-copyright .copyright,*/
+/*div.views-field-field-photo-copyright {
+	font-size: 0.8em;
+	line-height: 1;
+	padding-top: 0;
+}*/
 
 .caption {
 	font-size: 75%;
@@ -928,10 +936,16 @@ div.view-related-links ul li {
 	/*border-bottom: 1px solid #616161;*/
 }
 
-div.caption .c-name {
+div.c-name {
 	font-size: 1.2em;
 	font-weight: bold;
 }
+
+/*div.caption {
+	font-size: 1.2em;
+	font-weight: bold;
+}*/
+
 
 div span.detail-3-4 {
 	font-style: italic;
@@ -942,11 +956,9 @@ div .c-description {
 	font-weight: normal;
 }
 
-div.views-field-field-photo-copyright .copyright,
-div.views-field-field-photo-copyright .copyright a {
-	font-size: 0.8em;
-	line-height: 1;
-	padding-top: 0;
+
+#edit-field-image-description div.field-widget-text-textarea form-wrapper {
+	width: 50%;
 }
 
 /* insect caption styles */
