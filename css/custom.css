@@ -957,23 +957,10 @@ div .c-description {
 }
 
 
-#edit-field-image-description div.field-widget-text-textarea form-wrapper {
-	width: 50%;
+
+/* don't show input filters on related content */
+body.page-node-add-homepagephoto fieldset.filter-wrapper,
+body.page-node-add-image fieldset.filter-wrapper,
+body.page-node-add-announcement fieldset.filter-wrapper {
+	display: none;
 }
-
-/* insect caption styles */
-/*<div class="views-row views-row-1 views-row-odd views-row-first">
-<div class="views-field views-field-field-image">
-<div class="views-field views-field-field-image-description">
-<div class="field-content caption">
-<div class="c-name">Granary weevil</div>
-<div>
-<div class="c-description">Adult</div>
-</div>
-</div>
-<div class="views-field views-field-field-photo-copyright">
-<div class="views-field views-field-edit-node">
-</div>
-*/
-
-
