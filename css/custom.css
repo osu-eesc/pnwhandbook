@@ -956,14 +956,16 @@ div .c-description {
 	font-weight: normal;
 }
 
-node-type-image
-
 /* don't show input filters on related content */
-body.page-node-add-homepagephoto fieldset.filter-wrapper,
+/*body.page-node-add-homepagephoto fieldset.filter-wrapper,
 body.node-type-homepagephoto fieldset.filter-wrapper,
 body.page-node-add-image fieldset.filter-wrapper,
 body.node-type-image fieldset.filter-wrapper,
 body.page-node-add-announcement fieldset.filter-wrapper,
 body.node-type-announcement fieldset.filter-wrapper {
 	display: none;
+}*/
+
+table.views-table tbody tr td {
+	width: auto;
 }
