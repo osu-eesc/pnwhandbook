@@ -880,10 +880,15 @@ ul li.controls3 {
 
 .view-related-images {
   float: right;
-  background-color: #F1F1F1;
-  border: 1px solid #C8C8C8;
-  padding: 5px;
+  padding: 0 0 0 5px;
   width: 210px;
+}
+
+.view-related-images .views-row {
+	background-color: #F1F1F1;
+  border: 1px solid #C8C8C8;
+	margin: 0 0 10px 0;
+	padding: 5px;
 }
 
 /* reorder images display */
