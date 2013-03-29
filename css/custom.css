@@ -831,7 +831,7 @@ fieldset#node_page_full_group_author_date  {
 /* homepage photo block */
 #block-views-homepage-photo-homepage-photo,
 div.view-homepage-photo {
-	float: right;
+	position: relative;
 }
 
 .copyright {
@@ -917,7 +917,8 @@ table#draggableviews-table-related_images-reorder_images.views-table tbody tr td
 /* links array style */
  ul.links {
  	list-style-type: none;
- 	text-align: right;
+ 	margin: 1em 0 0;
+ 	text-align: left;
  }
 
  ul.links li {
@@ -956,16 +957,40 @@ div .c-description {
 	font-weight: normal;
 }
 
-/* don't show input filters on related content */
-/*body.page-node-add-homepagephoto fieldset.filter-wrapper,
-body.node-type-homepagephoto fieldset.filter-wrapper,
-body.page-node-add-image fieldset.filter-wrapper,
-body.node-type-image fieldset.filter-wrapper,
-body.page-node-add-announcement fieldset.filter-wrapper,
-body.node-type-announcement fieldset.filter-wrapper {
-	display: none;
-}*/
-
-table.views-table tbody tr td {
+div.view-related-content table.views-table tbody tr td {
 	width: auto;
+}
+
+div.view-related-content table.views-table tbody tr td {
+	font-size: 85%;
+}
+
+div.view-id-section_contents table {
+	width: 75%;
+}
+
+div.view-id-section_contents div.view-header {
+	margin-top: 1em;
+	font-size: 1.125em;
+	font-weight: bold;
+}
+
+div.view-id-section_contents table.views-table tbody, thead, tfoot, tr, td, th {
+	border: 1px solid #D5D5D5;
+	padding: 0 10px;
+}
+
+
+div.view-id-section_contents table.views-table tbody tr td {
+	font-size: 85%;
+}
+
+
+/* remove top and bottom padding in filter wrapper */
+.filter-wrapper {
+	padding: 0;
+}
+
+h2.block-title {
+	line-height: 1.25;
 }
