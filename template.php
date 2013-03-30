@@ -53,6 +53,9 @@ function pnwhandbook_process_page(&$vars) {
 
 //function pnwhandbook_preprocess_page(&$variables) {
 	//dpm($variables, '$variables');
+
+	//$search_box = drupal_render(drupal_get_form('search_form'));
+  //$variables['search_box'] = $search_box;
 	
 	//$variables['title_attributes_array']['class'][] = $variables['field_styled_title'][0]['value'];
 	// dpm(field_get_items('node', $variables['node'], 'field_styled_title', '0', 'value'), 'styled title array');

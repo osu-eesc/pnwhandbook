@@ -9,6 +9,17 @@
  	background: #F5F5F5;
  }
 
+ #content-wrapper.no-secondary {
+    padding-top: 0;
+}
+
+ #breadcrumb {
+ 	font-size: 87.5%;
+  margin-bottom: 1em;
+  padding-top: 0;
+  padding-top: 1em;
+ }
+
 .front .field-name-title {
 	display: none;
 }
@@ -24,6 +35,29 @@
 	background-color: #8C2D2A;
   background-image: linear-gradient(180deg, #8C2D2A, #6E2D26);
 }
+
+/*#header-wrapper .container {
+	background-color: #8C2D2A;
+  background-image: linear-gradient(180deg, #8C2D2A, #6E2D26);
+}*/
+
+/*#content-wrapper {
+	border-top: none;
+	border-bottom: none;
+}*/
+
+/*#content-wrapper .container {
+	background-color: #fafafa;
+}*/
+
+/*#block-search-form.block {
+	float: right;
+	margin-bottom: 0;
+}
+
+#block-search-form .form-item-search-block-form {
+	margin-bottom: 0;
+}*/
 
 /*#footer-panels-wrapper {
 	background-color: #8C2D2A;
@@ -70,7 +104,7 @@ div.three-3x33 {
 
 
 /*--Start pager style override--*/
-ul.pager {
+/*ul.pager {
   background: none;
   border: 1px solid #cecece;
   border-left: none;
@@ -134,9 +168,9 @@ ul.pager li a:hover {
 }
 ul.pager a.views-throbbing {
 	color: #fff !important;
-}
+}*/
 	/*--Start pager animation control--*/
-	@keyframes throb
+	/*@keyframes throb
 	{
 		0% {background-color: auto;}
 		100% {background-color: #D85a1a;}
@@ -194,7 +228,7 @@ ul.pager a.views-throbbing {
 		-ms-animation-iteration-count: infinite;
 		-ms-animation-duration: 0.25s;
 		-ms-animation-direction: alternate;
-	}
+	}*/
 	/*--End pager amination control--*/
 /*--End pager style override--*/
 
@@ -998,4 +1032,8 @@ div.view-id-section_contents table.views-table tbody tr td {
 
 h2.block-title {
 	line-height: 1.25;
+}
+
+ul.links li a {
+	font-size: 87.5%;
 }
