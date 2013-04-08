@@ -1040,6 +1040,7 @@ h2.block-title {
 }
 
 ul.links li a {
+<<<<<<< HEAD
 	font-size: .875em;
 }
 
@@ -1138,4 +1139,19 @@ li#menu-480-1 {
 }
 .sf-menu.sf-style-space-teal.sf-navbar li ul {
   background-color: #226BA6;
+=======
+	font-size: 87.5%;
+}
+
+
+/* Colorbox caption fix */
+
+#cboxContent #cboxTitle {
+	padding: 0;
+	bottom: 34px;
+}
+
+#cboxContent #cboxTitle > div {
+	padding: 4px;
+>>>>>>> 4bf6e5c1ec16ad5a84840bc36c868d610aa534ed
 }
