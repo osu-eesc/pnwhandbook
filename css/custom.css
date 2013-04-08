@@ -1037,3 +1037,15 @@ h2.block-title {
 ul.links li a {
 	font-size: 87.5%;
 }
+
+
+/* Colorbox caption fix */
+
+#cboxContent #cboxTitle {
+	padding: 0;
+	bottom: 34px;
+}
+
+#cboxContent #cboxTitle > div {
+	padding: 4px;
+}
