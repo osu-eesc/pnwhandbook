@@ -36,6 +36,11 @@
   background-image: linear-gradient(180deg, #8C2D2A, #6E2D26);
 }
 
+#branding {
+	margin: 20px;
+}
+
+
 /*#header-wrapper .container {
 	background-color: #8C2D2A;
   background-image: linear-gradient(180deg, #8C2D2A, #6E2D26);
@@ -667,10 +672,10 @@ li#menu-480-1 {
 	padding: 0.75em 1em;
 	color: #fff;
 }
-
+/*
 .sf-menu.sf-style-space-teal a {
 	border: none;
-}
+}*/
 
 
 #menu-wrapper {
@@ -1005,7 +1010,7 @@ div.view-related-content table.views-table tbody tr td {
 }
 
 div.view-id-section_contents table {
-	width: 75%;
+	width: .75em;
 }
 
 div.view-id-section_contents div.view-header {
@@ -1021,7 +1026,7 @@ div.view-id-section_contents table.views-table tbody, thead, tfoot, tr, td, th {
 
 
 div.view-id-section_contents table.views-table tbody tr td {
-	font-size: 85%;
+	font-size: .85em;
 }
 
 
@@ -1035,5 +1040,102 @@ h2.block-title {
 }
 
 ul.links li a {
-	font-size: 87.5%;
+	font-size: .875em;
+}
+
+
+
+/*  /// superfish and at-commerce main menu overrides ///  */
+#menu-wrapper {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 100;
+  top: 0.0em;
+  /*min-height: 2.75em;
+*/
+  box-shadow: none;
+}
+
+.nav .block-menu ul a {
+  display: block;
+  padding: 0.75em 1em;
+  text-decoration: none;
+}
+
+
+/*.sf-navbar li li:hover > ul,
+.sf-navbar li li.sfHover > ul,
+.sf-navbar > li.active-trail > ul {
+  left: 0;
+  top: 0.5em;
+}*/
+
+
+/*.nav .block-menu ul a {
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}*/
+
+
+li#menu-480-1 {
+	padding: 0.75em 1em;
+	 border: 1px outset #000000;
+  color: #f1f1f1;
+}
+
+.sf-menu.sf-style-space-teal {
+  float: left;
+  margin-bottom: 1em;
+  padding: 0;
+}
+.sf-menu.sf-style-space-teal.sf-navbar {
+  width: 100%;
+}
+.sf-menu.sf-style-space-teal ul {
+  padding-left: 0;
+}
+.sf-menu.sf-style-space-teal a {
+	border: none;
+  border: 1px outset #000000;
+  color: #f1f1f1;
+  padding: 0.75em 1em;
+}
+/*.sf-menu.sf-style-space-teal a.sf-with-ul {
+  padding-right: 2.25em;
+}
+.sf-menu.sf-style-space-teal.rtl a.sf-with-ul {
+  padding-left: 2.25em;
+  padding-right: 1em;
+}
+.sf-menu.sf-style-space-teal.sf-navbar a {
+  border: 0;
+}
+.sf-menu.sf-style-space-teal span.sf-description {
+  color: #13a;
+  display: block;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  margin: 5px 0 0 5px;
+  padding: 0;
+}
+.sf-menu.sf-style-space-teal li,
+.sf-menu.sf-style-space-teal li li,
+.sf-menu.sf-style-space-teal li li li,
+.sf-menu.sf-style-space-teal.sf-navbar {
+  background: #333333;
+}*/
+.sf-menu.sf-style-space-teal li:hover,
+.sf-menu.sf-style-space-teal li.sfHover,
+.sf-menu.sf-style-space-teal li.active a,
+.sf-menu.sf-style-space-teal a:focus,
+.sf-menu.sf-style-space-teal a:hover,
+.sf-menu.sf-style-space-teal a:active,
+.sf-menu.sf-style-space-teal.sf-navbar li li {
+  background: #226BA6;
+  color: #f1f1f1;
+}
+.sf-menu.sf-style-space-teal.sf-navbar li ul {
+  background-color: #226BA6;
 }
