@@ -14,7 +14,7 @@
 }
 
  #breadcrumb {
- 	font-size: 87.5%;
+ 	font-size: 0.875em;
   margin-bottom: 1em;
   padding-top: 0;
   padding-top: 1em;
@@ -73,7 +73,7 @@ div.three-3x33 {
   background-image: linear-gradient(180deg, #8C2D2A, #6E2D26);
   border-top: none;
 }
-*#footer-wrapper {
+#footer-wrapper {
 	background-color: #8C2D2A;
   background-image: linear-gradient(180deg, #8C2D2A, #6E2D26);
   border-top: none;
@@ -98,13 +98,13 @@ div.three-3x33 {
   
   #ordering-info-table p.state {
     font-weight: bold;
-    font-size: 125%;
+    font-size: 1.25em;
     margin-bottom: 0.5em;
   }
   
   div.ordering-information p.header {
     font-weight: bold;
-    font-size: 125%;
+    font-size: 1.25em;
   }
 
 
@@ -726,7 +726,7 @@ p.table-title {
 	font-family : Arial, sans-serif;
 	font-weight : bold;
 	font-style : normal;
-	font-size : 0.83em;
+	font-size : 0.813em;
 	text-decoration : none;
 	font-variant : normal;
 	line-height : 1.2;
@@ -782,7 +782,7 @@ p.table-text-centered {
 p.table-footnote {
 	font-weight : normal;
 	font-style : normal;
-	font-size : 0.67em;
+	font-size : 0.688em;
 	text-decoration : none;
 	font-variant : normal;
 	line-height : 1.2;
@@ -874,20 +874,19 @@ div.view-homepage-photo {
 }
 
 .copyright {
-	font-size: 70%;
+	font-size: 0.688em;
  	padding: 0 5px;
-	line-height: 1;
+	line-height: 1.25;
 }
 
-/*div.views-field-field-photo-copyright .copyright,*/
-/*div.views-field-field-photo-copyright {
-	font-size: 0.8em;
-	line-height: 1;
-	padding-top: 0;
-}*/
+div.views-field-field-photo-copyright {
+	font-size: 0.688em;
+ 	padding: 0 5px;
+	line-height: 1.25;
+}
 
 .caption {
-	font-size: 75%;
+	font-size: 0.75em;
 	padding: 5px;
 }
 
@@ -997,7 +996,7 @@ div span.detail-3-4 {
 }
 
 div .c-description {
-	font-size: 0.9em;
+	font-size: 0.875em;
 	font-weight: normal;
 }
 
@@ -1006,7 +1005,7 @@ div.view-related-content table.views-table tbody tr td {
 }
 
 div.view-related-content table.views-table tbody tr td {
-	font-size: 85%;
+	font-size: 0.813em;
 }
 
 div.view-id-section_contents table {
@@ -1026,7 +1025,7 @@ div.view-id-section_contents table.views-table tbody, thead, tfoot, tr, td, th {
 
 
 div.view-id-section_contents table.views-table tbody tr td {
-	font-size: .85em;
+	font-size: .875em;
 }
 
 
@@ -1040,11 +1039,8 @@ h2.block-title {
 }
 
 ul.links li a {
-<<<<<<< HEAD
 	font-size: .875em;
 }
-
-
 
 /*  /// superfish and at-commerce main menu overrides ///  */
 #menu-wrapper {
@@ -1103,30 +1099,7 @@ li#menu-480-1 {
   color: #f1f1f1;
   padding: 0.75em 1em;
 }
-/*.sf-menu.sf-style-space-teal a.sf-with-ul {
-  padding-right: 2.25em;
-}
-.sf-menu.sf-style-space-teal.rtl a.sf-with-ul {
-  padding-left: 2.25em;
-  padding-right: 1em;
-}
-.sf-menu.sf-style-space-teal.sf-navbar a {
-  border: 0;
-}
-.sf-menu.sf-style-space-teal span.sf-description {
-  color: #13a;
-  display: block;
-  font-size: 0.8em;
-  line-height: 1.5em;
-  margin: 5px 0 0 5px;
-  padding: 0;
-}
-.sf-menu.sf-style-space-teal li,
-.sf-menu.sf-style-space-teal li li,
-.sf-menu.sf-style-space-teal li li li,
-.sf-menu.sf-style-space-teal.sf-navbar {
-  background: #333333;
-}*/
+
 .sf-menu.sf-style-space-teal li:hover,
 .sf-menu.sf-style-space-teal li.sfHover,
 .sf-menu.sf-style-space-teal li.active a,
@@ -1139,13 +1112,11 @@ li#menu-480-1 {
 }
 .sf-menu.sf-style-space-teal.sf-navbar li ul {
   background-color: #226BA6;
-=======
-	font-size: 87.5%;
+	font-size: 0.875em;
 }
 
 
 /* Colorbox caption fix */
-
 #cboxContent #cboxTitle {
 	padding: 0;
 	bottom: 34px;
@@ -1153,5 +1124,16 @@ li#menu-480-1 {
 
 #cboxContent #cboxTitle > div {
 	padding: 4px;
->>>>>>> 4bf6e5c1ec16ad5a84840bc36c868d610aa534ed
+}
+
+
+/*   /// page-footer  ///   */
+#page-footer .container,
+#page-footer .container a {
+	color: #f9f9f9;
+}
+
+#page-footer .container p,
+#page-footer .container p a {
+	font-weight: bold;
 }
