@@ -32,8 +32,14 @@
 
 
 #header-wrapper {
-	background-color: #8C2D2A;
-  background-image: linear-gradient(180deg, #8C2D2A, #6E2D26);
+  background: #8c2d2a; /* Old browsers */
+	background: -moz-linear-gradient(top, #8c2d2a 0%, #6e2d26 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8c2d2a), color-stop(100%,#6e2d26)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #8c2d2a 0%,#6e2d26 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #8c2d2a 0%,#6e2d26 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #8c2d2a 0%,#6e2d26 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #8c2d2a 0%,#6e2d26 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c2d2a', endColorstr='#6e2d26',GradientType=0 ); /* IE6-9 */
 }
 
 #branding {
@@ -64,20 +70,44 @@
 	margin-bottom: 0;
 }*/
 
-/*#footer-panels-wrapper {
-	background-color: #8C2D2A;
-  background-image: linear-gradient(180deg, #8C2D2A, #6E2D26);
-}*/
+
 div.three-3x33 {
-	background-color: #8C2D2A;
-  background-image: linear-gradient(180deg, #8C2D2A, #6E2D26);
+  background-image: linear-gradient(180deg, #8C2D2A, #6E2D26);*/
   border-top: none;
+  padding: 10px;
+  background: #8c2d2a; /* Old browsers */
+	background: -moz-linear-gradient(top,  #8c2d2a 0%, #6e2d26 50%, #8c2d2a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8c2d2a), color-stop(50%,#6e2d26), color-stop(100%,#8c2d2a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #8c2d2a 0%,#6e2d26 50%,#8c2d2a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #8c2d2a 0%,#6e2d26 50%,#8c2d2a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #8c2d2a 0%,#6e2d26 50%,#8c2d2a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #8c2d2a 0%,#6e2d26 50%,#8c2d2a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c2d2a', endColorstr='#8c2d2a',GradientType=0 ); /* IE6-9 */
 }
+
+#page-footer {
+	border-top: none;
+	background: #6e2d26; /* Old browsers */
+	background: -moz-linear-gradient(top,  #6e2d26 0%, #8c2d2a 75%, #8c2d2a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6e2d26), color-stop(75%,#8c2d2a), color-stop(100%,#8c2d2a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #6e2d26 0%,#8c2d2a 75%,#8c2d2a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #6e2d26 0%,#8c2d2a 75%,#8c2d2a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #6e2d26 0%,#8c2d2a 75%,#8c2d2a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #6e2d26 0%,#8c2d2a 75%,#8c2d2a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e2d26', endColorstr='#8c2d2a',GradientType=0 ); /* IE6-9 */
+}
+
 #footer-wrapper {
-	background-color: #8C2D2A;
-  background-image: linear-gradient(180deg, #8C2D2A, #6E2D26);
-  border-top: none;
+	border-top: none;
+	padding: 0;
 }
+
+div#block-boxes-footer-text.block {
+	margin-bottom: 0;
+}
+
+
+
  /*#tertiary-content-wrapper { {
     background: url('images/insect/footer_sides.png') repeat-x scroll 0 15px transparent;
     border-bottom: 1px solid #627D90;
@@ -1042,6 +1072,36 @@ ul.links li a {
 	font-size: .875em;
 }
 
+/*make views tables look good*/
+div.view-related-content table.views-table tbody tr td {
+	width: auto;
+}
+
+div.view-related-content table.views-table tbody tr td {
+	font-size: 0.875em;
+}
+
+div.view-id-section_contents table {
+	width: 75%;
+}
+
+div.view-id-section_contents div.view-header {
+	margin-top: 1em;
+	font-size: 1.125em;
+	font-weight: bold;
+}
+
+div.view-id-section_contents table.views-table tbody, thead, tfoot, tr, td, th {
+	border: 1px solid #D5D5D5;
+	padding: 0 10px;
+}
+
+div.view-id-section_contents table.views-table tbody tr td {
+	font-size: 0.875em;
+}
+
+
+
 /*  /// superfish and at-commerce main menu overrides ///  */
 #menu-wrapper {
   margin: 0;
@@ -1078,9 +1138,14 @@ ul.links li a {
 
 li#menu-480-1 {
 	padding: 0.75em 1em;
-	 border: 1px outset #000000;
+	border: 1px outset #000000;
+	/*border: none;*/
   color: #f1f1f1;
+  -webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
 }
+
 
 .sf-menu.sf-style-space-teal {
   float: left;
@@ -1136,4 +1201,8 @@ li#menu-480-1 {
 #page-footer .container p,
 #page-footer .container p a {
 	font-weight: bold;
+}
+
+table.views-table tbody tr td {
+width: auto;
 }
