@@ -1093,7 +1093,7 @@ div.view-id-section_contents div.view-header {
 
 div.view-id-section_contents table.views-table tbody, thead, tfoot, tr, td, th {
 	border: 1px solid #D5D5D5;
-	padding: 0 10px;
+	padding: 0.5em 1.0em;
 }
 
 div.view-id-section_contents table.views-table tbody tr td {
@@ -1144,6 +1144,12 @@ li#menu-480-1 {
   -webkit-border-top-left-radius: 10px;
 	-moz-border-radius-topleft: 10px;
 	border-top-left-radius: 10px;
+}
+
+li#menu-490-1 a {
+  -webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
 }
 
 
@@ -1203,6 +1209,23 @@ li#menu-480-1 {
 	font-weight: bold;
 }
 
-table.views-table tbody tr td {
-width: auto;
+#block-views-related-links-related-links,
+#block-views-71d8de985c771f73105619ac94d1d3da {
+padding-top: 0.5em;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+
+background: -moz-linear-gradient(top,  rgba(165,165,165,0.65) 0%, rgba(165,165,165,0.64) 1%, rgba(242,242,242,0) 60%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(165,165,165,0.65)), color-stop(1%,rgba(165,165,165,0.64)), color-stop(60%,rgba(242,242,242,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(165,165,165,0.65) 0%,rgba(165,165,165,0.64) 1%,rgba(242,242,242,0) 60%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(165,165,165,0.65) 0%,rgba(165,165,165,0.64) 1%,rgba(242,242,242,0) 60%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(165,165,165,0.65) 0%,rgba(165,165,165,0.64) 1%,rgba(242,242,242,0) 60%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(165,165,165,0.65) 0%,rgba(165,165,165,0.64) 1%,rgba(242,242,242,0) 60%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6a5a5a5', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+
 }

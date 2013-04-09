@@ -32,10 +32,6 @@
 		font-size: 93.8%;
 	}
 
-	#footer-panels-wrapper {
-		font-size: 75%;
-	}
-
 	.main-page-float-right,
 	.view-handbook-images {
   	width: 300px;
@@ -47,6 +43,11 @@
 
 	html {
 		font-size: 93.8%;
+	}
+
+	.sf-menu.sf-style-space-teal a, /*reduce padding so menu fits*/
+	li#menu-480-1  {
+  	padding: 0.75em 0.5em;
 	}
 
 	#footer-panels-wrapper {
