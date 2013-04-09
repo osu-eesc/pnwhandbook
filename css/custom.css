@@ -1146,7 +1146,24 @@ li#menu-480-1 {
 	border-top-left-radius: 10px;
 }
 
-li#menu-490-1 a {
+li#menu-490-1.last a {
+  -webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+}
+li#menu-490-1.last {
+  -webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+}
+
+.sf-menu.sf-style-space-teal li#menu-490-1:hover,
+.sf-menu.sf-style-space-teal li#menu-490-1.sfHover,
+.sf-menu.sf-style-space-teal li#menu-490-1.active a,
+li#menu-490-1.last a:focus,
+li#menu-490-1.last a:hover,
+li#menu-490-1.last a:active,
+.sf-menu.sf-style-space-teal.sf-navbar li li#menu-490-1.last {
   -webkit-border-top-right-radius: 10px;
 	-moz-border-radius-topright: 10px;
 	border-top-right-radius: 10px;
