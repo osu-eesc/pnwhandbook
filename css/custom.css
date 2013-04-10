@@ -1259,3 +1259,7 @@ li#menu-490-1.last a:active,
 body.page-search-content  .ds-2col > .group-left {
     width: 20%;
 }
+
+.ds-search-highlight {
+	background-color: #FFFCCB;
+}
