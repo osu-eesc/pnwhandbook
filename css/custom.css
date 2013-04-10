@@ -9,6 +9,10 @@
  	background: #F5F5F5;
  }
 
+ #content-wrapper {
+   border-top: none;
+}
+
  #content-wrapper.no-secondary {
     padding-top: 0;
 }
@@ -30,16 +34,12 @@
 	font-weight: bold;
 }
 
+#page {
+	background: url("images/insect/page_bg.jpg") repeat-x 0 0 #F5F5F5;
+}
 
 #header-wrapper {
-  background: #8c2d2a; /* Old browsers */
-	background: -moz-linear-gradient(top, #8c2d2a 0%, #6e2d26 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8c2d2a), color-stop(100%,#6e2d26)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #8c2d2a 0%,#6e2d26 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #8c2d2a 0%,#6e2d26 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #8c2d2a 0%,#6e2d26 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #8c2d2a 0%,#6e2d26 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c2d2a', endColorstr='#6e2d26',GradientType=0 ); /* IE6-9 */
+	background: url("images/insect/header_bg.jpg") no-repeat scroll 0 0 transparent;
 }
 
 #branding {
@@ -47,42 +47,8 @@
 }
 
 
-/*#header-wrapper .container {
-	background-color: #8C2D2A;
-  background-image: linear-gradient(180deg, #8C2D2A, #6E2D26);
-}*/
-
-/*#content-wrapper {
-	border-top: none;
-	border-bottom: none;
-}*/
-
-/*#content-wrapper .container {
-	background-color: #fafafa;
-}*/
-
-/*#block-search-form.block {
-	float: right;
-	margin-bottom: 0;
-}
-
-#block-search-form .form-item-search-block-form {
-	margin-bottom: 0;
-}*/
-
-
 div.three-3x33 {
-  background-image: linear-gradient(180deg, #8C2D2A, #6E2D26);*/
-  border-top: none;
-  padding: 10px;
-  background: #8c2d2a; /* Old browsers */
-	background: -moz-linear-gradient(top,  #8c2d2a 0%, #6e2d26 50%, #8c2d2a 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8c2d2a), color-stop(50%,#6e2d26), color-stop(100%,#8c2d2a)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #8c2d2a 0%,#6e2d26 50%,#8c2d2a 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #8c2d2a 0%,#6e2d26 50%,#8c2d2a 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #8c2d2a 0%,#6e2d26 50%,#8c2d2a 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #8c2d2a 0%,#6e2d26 50%,#8c2d2a 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c2d2a', endColorstr='#8c2d2a',GradientType=0 ); /* IE6-9 */
+ 
 }
 
 #page-footer {
@@ -96,10 +62,14 @@ div.three-3x33 {
 	background: linear-gradient(to bottom,  #6e2d26 0%,#8c2d2a 75%,#8c2d2a 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e2d26', endColorstr='#8c2d2a',GradientType=0 ); /* IE6-9 */
 }
+#page-footer {
+	background: url("images/insect/footer_main.jpg") repeat-x scroll 0 0 #75362a;
+}
 
 #footer-wrapper {
 	border-top: none;
 	padding: 0;
+	background-color: transparent;
 }
 
 div#block-boxes-footer-text.block {
