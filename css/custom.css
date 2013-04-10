@@ -43,7 +43,7 @@
 }
 
 #branding {
-	margin: 20px;
+	margin: 0 20px 15px 20px;
 }
 
 
@@ -1262,4 +1262,8 @@ body.page-search-content  .ds-2col > .group-left {
 
 .ds-search-highlight {
 	background-color: #FFFCCB;
+}
+
+#toggle-wrapper a {
+	font-size: 0.75em;
 }
