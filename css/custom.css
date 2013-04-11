@@ -6,7 +6,7 @@
  */
 
  html {
- 	background: #F5F5F5;
+ 	background: #75362A;
  }
 
  #content-wrapper {
@@ -40,6 +40,7 @@
 
 #header-wrapper {
 	background: url("images/insect/header_bg.jpg") no-repeat scroll 0 0 transparent;
+	border-bottom: none;
 }
 
 #branding {
@@ -52,23 +53,16 @@ div.three-3x33 {
 }
 
 #page-footer {
-	border-top: none;
-	background: #6e2d26; /* Old browsers */
-	background: -moz-linear-gradient(top,  #6e2d26 0%, #8c2d2a 75%, #8c2d2a 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6e2d26), color-stop(75%,#8c2d2a), color-stop(100%,#8c2d2a)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #6e2d26 0%,#8c2d2a 75%,#8c2d2a 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #6e2d26 0%,#8c2d2a 75%,#8c2d2a 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #6e2d26 0%,#8c2d2a 75%,#8c2d2a 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #6e2d26 0%,#8c2d2a 75%,#8c2d2a 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e2d26', endColorstr='#8c2d2a',GradientType=0 ); /* IE6-9 */
-}
-#page-footer {
 	background: url("images/insect/footer_main.jpg") repeat-x scroll 0 0 #75362a;
 }
 
+#footer-panels-wrapper {
+	border-bottom: none;
+}
+
 #footer-wrapper {
-	border-top: none;
-	padding: 0;
+	border-top: 1px solid #AC5D58;
+	padding: 10px 0 0 0;
 	background-color: transparent;
 }
 
