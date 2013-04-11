@@ -29,7 +29,7 @@
 @media only screen and (min-width:769px) and (max-width:1024px) {
 
 	html {
-		font-size: 93.8%;
+		font-size: 100%;
 	}
 
 	.main-page-float-right,
@@ -42,7 +42,7 @@
 @media only screen and (min-width:481px) and (max-width:768px) {
 
 	html {
-		font-size: 93.8%;
+		font-size: 100%;
 	}
 
 	.sf-menu.sf-style-space-teal a, /*reduce padding so menu fits*/
