@@ -1178,12 +1178,13 @@ li#menu-490-1.last a:active,
 #cboxContent #cboxTitle {
 	padding: 0;
 	bottom: 34px;
+	background: #FFFFFF;
+	background: rgba(255, 255, 255, 0.7);
 }
 
 #cboxContent #cboxTitle > div {
 	padding: 4px;
 }
-
 
 /*   /// page-footer  ///   */
 #page-footer .container,
