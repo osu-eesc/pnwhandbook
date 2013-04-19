@@ -5,9 +5,11 @@
  *
  */
 
- html {
- 	background: #75362A;
- }
+/* html {
+ 	background: #6d2d23;
+ }*/
+
+
 
  #content-wrapper {
    border-top: none;
@@ -21,7 +23,7 @@
  	font-size: 0.875em;
   margin-bottom: 1em;
   padding-top: 0;
-  padding-top: 1em;
+  padding-top: 0;
  }
 
 .front .field-name-title {
@@ -34,12 +36,20 @@
 	font-weight: bold;
 }
 
+#toggle-wrapper {
+	border-top: none;
+}
+
+#draw-wrapper {
+	background: #616161;
+}
+
 #page {
-	background: url("images/insect/page_bg.jpg") repeat-x 0 0 #F5F5F5;
+	background: url("images/insect/page_bg_desktop.png") repeat-x 0 0 #F5F5F5;
 }
 
 #header-wrapper {
-	background: url("images/insect/header_bg.jpg") no-repeat scroll 0 0 transparent;
+	background: url("images/insect/page_bg_desktop.png") repeat-x 0 0 #F5F5F5;
 	border-bottom: none;
 }
 
@@ -53,16 +63,18 @@ div.three-3x33 {
 }
 
 #page-footer {
-	background: url("images/insect/footer_main.jpg") repeat-x scroll 0 0 #75362a;
+	background: url("images/insect/footer_bg_desktop.png") repeat-x scroll 0 0 #6d2d23;
 }
 
 #footer-panels-wrapper {
 	border-bottom: none;
+	font-size: 0.75em;
 }
 
 #footer-wrapper {
-	border-top: 1px solid #AC5D58;
-	padding: 10px 0 0 0;
+	border-top: none;
+	margin-bottom: 1.0em
+	padding: 1.0em 0 0 0;
 	background-color: transparent;
 }
 
@@ -960,7 +972,7 @@ table#draggableviews-table-related_images-reorder_images.views-table tbody tr td
 /* links array style */
  ul.links {
  	list-style-type: none;
- 	margin: 1em 0 0;
+ 	margin: 4em 0 0;
  	text-align: left;
  }
 
@@ -1042,7 +1054,7 @@ ul.links li a {
 	font-size: .875em;
 }
 
-/*make views tables look good*/
+/* make views tables look good */
 div.view-related-content table.views-table tbody tr td {
 	width: auto;
 }
@@ -1231,3 +1243,28 @@ body.page-search-content  .ds-2col > .group-left {
 #toggle-wrapper a {
 	font-size: 0.75em;
 }
+
+div.region-sidebar-second { /* adjust top margin so it lines up under title */
+	margin-top: 4.5em;
+}
+
+/*  search page */
+.view-mode-search_result h2 {
+	font-size: 1.0em;
+}
+
+.field-name-search-snippet {
+	font-size: 0.813em;
+}
+
+.view-handbook-announcement .views-field-title {
+	font-size: 1.063em;
+	font-weight: bold;
+}
+
+.nav-button { /* hide the mobile navigation button by default */
+	display: none; 
+} 
+
+
+
