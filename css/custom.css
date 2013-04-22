@@ -22,7 +22,7 @@
  #breadcrumb {
  	font-size: 0.875em;
   margin-bottom: 0em;
-  padding-top: 0;
+  padding-bottom: 0.500em;
   padding-top: 0;
  }
 
@@ -31,9 +31,11 @@
 }
 
 /*  note: this should match the h2 title style */
-.field-name-field-styled-title {
-	font-size: 1.313em;
-	font-weight: bold;
+.field-name-field-styled-title,
+h2.title {
+	font-size: 1.250em;
+	font-weight: 500;	
+	line-height: 1.2;
 }
 
 #toggle-wrapper {
@@ -302,17 +304,18 @@ vertical-align : sub;
 font-size: .875em;
 }
 .bold { 
-font-weight : bold;
+font-weight : 500;
 
 }
 .italic { 
 font-style : italic;
+font-weight : 400;
 
 }
 .bold-italic { 
-font-weight : bold;
+font-weight : 500;
 font-style : italic;
-
+font-weight : 500;
 }
 
 
@@ -327,21 +330,21 @@ margin : 0px;
 
 }
 p.table-title { 
-font-weight : bold;
+font-weight : 500;
 text-align : left;
 text-indent : 0px;
 margin : 12px 0px 6px 0px;
 
 }
 p.table-column-head { 
-font-weight : bold;
+font-weight : 500;
 text-align : center;
 text-indent : 0px;
 margin : 12px 0px 3px 0px;
 
 }
 p.table-row-head { 
-font-weight : bold;
+font-weight : 500;
 font-size : 0.688em;
 text-align : center;
 text-indent : 0px;
@@ -372,7 +375,7 @@ text-indent : 0px;
 
 }
 p.Index-Title { 
-font-weight : bold;
+font-weight : 500;
 text-align : left;
 text-indent : 0px;
 margin : 0px 0px 18px 0px;
@@ -386,7 +389,7 @@ margin : 0px 0px 0px 40px;
 
 }
 p.Index-Alpha-Header--w-line- { 
-font-weight : bold;
+font-weight : 500;
 font-size : 1.500em;
 text-align : left;
 text-indent : 0px;
@@ -394,7 +397,7 @@ margin : 18px 0px 6px 0px;
 
 }
 p.Index-Level-1 { 
-font-weight : bold;
+font-weight : 500;
 text-align : left;
 text-indent : -28px;
 margin : 5px 0px 0px 28px;
@@ -407,7 +410,7 @@ margin : 0px 0px 0px 29px;
 
 }
 p.TOC-Header { 
-font-weight : bold;
+font-weight : 500;
 font-size : 1.125em;
 text-align : center;
 text-indent : 0px;
@@ -423,7 +426,7 @@ margin : 0px;
 
 }
 p.TOC-Section-Head { 
-font-weight : bold;
+font-weight : 500;
 line-height : 1.11;
 text-align : left;
 text-indent : 0px;
@@ -446,7 +449,7 @@ margin : 0px;
 
 }
 p.Contributors-Head { 
-font-weight : bold;
+font-weight : 500;
 font-size : 1.188em;
 text-align : left;
 text-indent : 0px;
@@ -467,12 +470,12 @@ margin : 0px 0px 2px 43px;
 }
 p.subhead2,
 p.Contributors-Head { 
-	font-weight : bold;
+	font-weight : 500;
 	font-size: 1.313em;
 	margin-bottom: 0;
 }
 p.crop-and-pest-name { 
-font-weight : bold;
+font-weight : 500;
 text-align : left;
 text-indent : 0px;
 margin : 12px 0px 2px 0px;
@@ -493,8 +496,8 @@ margin-bottom : 1px;
 p.Includes,
 p.mgmt-head,
 p.nursery-pests { 
-font-weight : bold;
-font-size: 1.125ßem;
+font-weight: 500;
+font-size: 1.125em;
 margin-bottom: 0;
 }
 
@@ -505,7 +508,7 @@ margin-bottom: 0;
 }
 p.subhead3,
 p.subhead-xmas-tree { 
-font-weight : bold;
+font-weight : 500;
 font-size: 1.313em;
 
 }
@@ -520,14 +523,14 @@ margin-bottom : 0px;
 
 }
 p.chapter-head { 
-font-weight : bold;
+font-weight : 500;
 text-align : left;
 text-indent : 0px;
 margin : 18px 0px 12px 0px;
 
 }
 p.section-head-w-line { 
-font-weight : bold;
+font-weight : 500;
 font-size : 1.188em;
 text-align : left;
 text-indent : 0px;
@@ -565,7 +568,7 @@ margin : 0px;
 
 }
 p.INCLUDES-MANAGEMENT-OPTIONS { 
-font-weight : bold;
+font-weight : 500;
 font-style : italic;
 text-align : left;
 text-indent : 0px;
@@ -573,7 +576,7 @@ margin : 0px;
 
 }
 p.APPLESTAGE { 
-font-weight : bold;
+font-weight : 500;
 font-style : italic;
 font-size: 1.125em;
 text-transform: uppercase;
@@ -587,14 +590,14 @@ margin : 0px;
 }
 p.subhead3 { 
 	font-size: 1.188em;
-	font-weight: bold;
+	font-weight: 500;
 	margin-bottom: 0;
 }
 
 p.subhead4,
 p.subhead4--with-rule-below- { 
 	font-size: 1.125em;
-	font-weight: bold;
+	font-weight: 500;
 	margin-bottom: 0;
 }
 p.indented-list--no-numbers- { 
@@ -736,8 +739,7 @@ article header {
 
 /*  insect table styles */
 p.table-title {
-	font-family : Arial, sans-serif;
-	font-weight : bold;
+	font-weight : 500;
 	font-style : normal;
 	font-size : 0.813em;
 	text-decoration : none;
@@ -749,8 +751,7 @@ p.table-title {
 	margin : 12px 0px 9px 0px;
 }
 p.table-column-head {
-	font-family : Arial, sans-serif;
-	font-weight : bold;
+	font-weight : 500;
 	font-style : normal;
 	font-size : 0.750em;
 	text-decoration : none;
@@ -762,7 +763,7 @@ p.table-column-head {
 	margin : 12px 0px 3px 0px;
 }
 p.table-row-head {
-	font-weight : bold;
+	font-weight : 500;
 	font-style : normal;
 	font-size : 0.750em;
 	text-decoration : none;
@@ -806,7 +807,7 @@ p.table-footnote {
 }
 
 p.table-column-head-left {
-	font-weight : bold;
+	font-weight : 500;
 	font-style : normal;
 	font-size : 0.750em;
 	text-decoration : none;
@@ -818,7 +819,7 @@ p.table-column-head-left {
 	margin : 12px 0px 3px 0px;
 }
 p.table-row-head-left {
-	font-weight : bold;
+	font-weight : 500;
 	font-style : normal;
 	font-size : 0.750em;
 	text-decoration : none;
@@ -994,8 +995,8 @@ div.view-related-links ul li {
 }
 
 div.c-name {
-	font-size: 1.25em;
-	font-weight: bold;
+	font-size: 1.188em;
+	font-weight: 500;
 }
 
 /*div.caption {
@@ -1021,14 +1022,10 @@ div.view-related-content table.views-table tbody tr td {
 	font-size: 0.813em;
 }
 
-div.view-id-section_contents table {
-	width: 0.750em;
-}
-
 div.view-id-section_contents div.view-header {
 	margin-top: 1em;
 	font-size: 1.125em;
-	font-weight: bold;
+	font-weight: 500;
 }
 
 div.view-id-section_contents table.views-table tbody, thead, tfoot, tr, td, th {
@@ -1048,7 +1045,9 @@ div.view-id-section_contents table.views-table tbody tr td {
 }
 
 h2.block-title {
-	line-height: 1.25;
+	font-size: 1.125em;
+	font-weight: 400 !important;	
+	line-height: 1.2;
 }
 
 ul.links li a {
@@ -1065,13 +1064,13 @@ div.view-related-content table.views-table tbody tr td {
 }
 
 div.view-id-section_contents table {
-	width: 75%;
+	width: 90%;
 }
 
 div.view-id-section_contents div.view-header {
 	margin-top: 1em;
 	font-size: 1.125em;
-	font-weight: bold;
+	font-weight: 400;
 }
 
 div.view-id-section_contents table.views-table tbody, thead, tfoot, tr, td, th {
@@ -1283,9 +1282,11 @@ div.region-sidebar-second { /* adjust top margin so it lines up under title */
 
 #block-sharethis-sharethis-block {
 	float: right;
-	/*clear: both;*/
-/*	margin-bottom: 0.500em;
-	padding: 0;*/
+	margin-bottom: 0;
+}
+
+#messages-help-wrapper {
+	margin-bottom: 0;
 }
 
 
