@@ -250,6 +250,7 @@
 		max-width: 100px;
 	}
 
+
 	/*#menu-wrapper {
 		min-height: 1.0em;
 	}*/
@@ -322,6 +323,11 @@
 	#menu-wrapper {
 		top: -50px;
 	}
+
+	.view-related-images {
+    width: 100px;
+	}
+
 
 		/* Navigation Button
 	-------------------------------------------------------- */

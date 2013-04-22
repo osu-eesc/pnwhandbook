@@ -21,7 +21,7 @@
 
  #breadcrumb {
  	font-size: 0.875em;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   padding-top: 0;
   padding-top: 0;
  }
@@ -730,7 +730,7 @@ article header {
 	font-size: 0.875em;
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
-	padding-left: 20px;
+	padding-left: 10px;
 	padding-top: 5px;
 }
 
@@ -1279,6 +1279,13 @@ div.region-sidebar-second { /* adjust top margin so it lines up under title */
 .view-id-article_subpages h3 {
 	font-size: 1.250em;
 	padding-top: 0.5em;
+}
+
+#block-sharethis-sharethis-block {
+	float: right;
+	/*clear: both;*/
+/*	margin-bottom: 0.500em;
+	padding: 0;*/
 }
 
 
