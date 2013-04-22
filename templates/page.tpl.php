@@ -147,6 +147,10 @@
                   <div id="content">
                     <?php print $content; ?>
                   </div>
+
+                  <div class="top-anchor">
+                    <a title="Top of page" href="#page">Back to top <span class="up-arrow">&#8679;</span></a>
+                  </div>
                 <?php endif; ?>
 
               </<?php print $tag; ?>>

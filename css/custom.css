@@ -32,7 +32,7 @@
 
 /*  note: this should match the h2 title style */
 .field-name-field-styled-title {
-	font-size: 1.4em;
+	font-size: 1.313em;
 	font-weight: bold;
 }
 
@@ -342,7 +342,7 @@ margin : 12px 0px 3px 0px;
 }
 p.table-row-head { 
 font-weight : bold;
-font-size : 0.67em;
+font-size : 0.688em;
 text-align : center;
 text-indent : 0px;
 margin : 12px 0px 3px 0px;
@@ -387,7 +387,7 @@ margin : 0px 0px 0px 40px;
 }
 p.Index-Alpha-Header--w-line- { 
 font-weight : bold;
-font-size : 3em;
+font-size : 1.500em;
 text-align : left;
 text-indent : 0px;
 margin : 18px 0px 6px 0px;
@@ -408,14 +408,14 @@ margin : 0px 0px 0px 29px;
 }
 p.TOC-Header { 
 font-weight : bold;
-font-size : 1.17em;
+font-size : 1.125em;
 text-align : center;
 text-indent : 0px;
 margin : 0px;
 
 }
 p.TOC-Content-1 { 
-font-size : 0.67em;
+font-size : 0.688em;
 line-height : 1.25;
 text-align : left;
 text-indent : 0px;
@@ -431,7 +431,7 @@ margin : 0px;
 
 }
 p.TOC-Content-2 { 
-font-size : 0.67em;
+font-size : 0.668em;
 line-height : 1.24;
 text-align : left;
 text-indent : 0px;
@@ -447,7 +447,7 @@ margin : 0px;
 }
 p.Contributors-Head { 
 font-weight : bold;
-font-size : 1.17em;
+font-size : 1.188em;
 text-align : left;
 text-indent : 0px;
 margin : 5px 0px;
@@ -467,9 +467,9 @@ margin : 0px 0px 2px 43px;
 }
 p.subhead2,
 p.Contributors-Head { 
-font-weight : bold;
-font-size: 1.4em;
-
+	font-weight : bold;
+	font-size: 1.313em;
+	margin-bottom: 0;
 }
 p.crop-and-pest-name { 
 font-weight : bold;
@@ -494,7 +494,8 @@ p.Includes,
 p.mgmt-head,
 p.nursery-pests { 
 font-weight : bold;
-font-size: 1.1em;
+font-size: 1.125ßem;
+margin-bottom: 0;
 }
 
 .Includes {
@@ -505,7 +506,7 @@ font-size: 1.1em;
 p.subhead3,
 p.subhead-xmas-tree { 
 font-weight : bold;
-font-size: 1.3em;
+font-size: 1.313em;
 
 }
 
@@ -527,7 +528,7 @@ margin : 18px 0px 12px 0px;
 }
 p.section-head-w-line { 
 font-weight : bold;
-font-size : 1.17em;
+font-size : 1.188em;
 text-align : left;
 text-indent : 0px;
 margin : 36px 0px 6px 0px;
@@ -574,7 +575,7 @@ margin : 0px;
 p.APPLESTAGE { 
 font-weight : bold;
 font-style : italic;
-font-size: 1.1em;
+font-size: 1.125em;
 text-transform: uppercase;
 }
 
@@ -585,16 +586,16 @@ margin : 0px;
 
 }
 p.subhead3 { 
-font-size: 1.188em;
-font-weight: bold;
-
+	font-size: 1.188em;
+	font-weight: bold;
+	margin-bottom: 0;
 }
 
 p.subhead4,
 p.subhead4--with-rule-below- { 
-font-size: 1.125em;
-font-weight: bold;
-
+	font-size: 1.125em;
+	font-weight: bold;
+	margin-bottom: 0;
 }
 p.indented-list--no-numbers- { 
 text-align : left;
@@ -700,7 +701,7 @@ li#menu-480-1 {
 }
 
 #block-menu-menu-front-sidebar-menu.block ul li {
-	font-size: 0.8em;
+	font-size: 0.813em;
 }
 /* remove "you are here" from breadcrumb */
 #breadcrumb h2 {
@@ -709,7 +710,7 @@ li#menu-480-1 {
 
 .field-name-field-author,
 .field-name-field-revision-date {
-	font-size: .875em;
+	font-size: 0.875em;
 	/*margin-bottom: 1em;*/
 }
 
@@ -726,7 +727,7 @@ article header {
 	/*margin-top: 0.5em;*/
 	margin-top: 10px;
 	margin-bottom: 10px;
-	font-size: .875em;
+	font-size: 0.875em;
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
 	padding-left: 20px;
@@ -751,7 +752,7 @@ p.table-column-head {
 	font-family : Arial, sans-serif;
 	font-weight : bold;
 	font-style : normal;
-	font-size : 0.75em;
+	font-size : 0.750em;
 	text-decoration : none;
 	font-variant : normal;
 	line-height : 1.2;
@@ -763,7 +764,7 @@ p.table-column-head {
 p.table-row-head {
 	font-weight : bold;
 	font-style : normal;
-	font-size : 0.75em;
+	font-size : 0.750em;
 	text-decoration : none;
 	font-variant : normal;
 	line-height : 1.2;
@@ -775,7 +776,7 @@ p.table-row-head {
 p.table-text {
 	font-weight : normal;
 	font-style : normal;
-	font-size : 0.75em;
+	font-size : 0.750em;
 	text-decoration : none;
 	font-variant : normal;
 	line-height : 1.2;
@@ -785,7 +786,7 @@ p.table-text {
 	margin : 0px;
 }
 p.table-text-centered {
-	font-size : 0.75em;
+	font-size : 0.750em;
 	line-height : 1.2;
 	text-align : center;
 	margin : 0px;
@@ -807,7 +808,7 @@ p.table-footnote {
 p.table-column-head-left {
 	font-weight : bold;
 	font-style : normal;
-	font-size : 0.75em;
+	font-size : 0.750em;
 	text-decoration : none;
 	font-variant : normal;
 	line-height : 1.2;
@@ -819,7 +820,7 @@ p.table-column-head-left {
 p.table-row-head-left {
 	font-weight : bold;
 	font-style : normal;
-	font-size : 0.75em;
+	font-size : 0.750em;
 	text-decoration : none;
 	font-variant : normal;
 	line-height : 1.2;
@@ -898,7 +899,7 @@ div.views-field-field-photo-copyright {
 }
 
 .caption {
-	font-size: 0.75em;
+	font-size: 0.750em;
 	padding: 5px;
 }
 
@@ -965,7 +966,7 @@ table#draggableviews-table-related_images-reorder_images.views-table tbody tr td
 .views-field-edit-node, 
 .views-field-edit-node a {
 	float: right;
-	font-size: 85%;
+	font-size: 0.875em;
 	color: #8c2d2a;
 }
 
@@ -993,7 +994,7 @@ div.view-related-links ul li {
 }
 
 div.c-name {
-	font-size: 1.2em;
+	font-size: 1.25em;
 	font-weight: bold;
 }
 
@@ -1021,7 +1022,7 @@ div.view-related-content table.views-table tbody tr td {
 }
 
 div.view-id-section_contents table {
-	width: .75em;
+	width: 0.750em;
 }
 
 div.view-id-section_contents div.view-header {
@@ -1037,7 +1038,7 @@ div.view-id-section_contents table.views-table tbody, thead, tfoot, tr, td, th {
 
 
 div.view-id-section_contents table.views-table tbody tr td {
-	font-size: .875em;
+	font-size: 0.875em;
 }
 
 
@@ -1154,7 +1155,7 @@ li#menu-490-1.last a:active,
 
 .sf-menu.sf-style-space-teal {
   float: left;
-  margin-bottom: 1em;
+  margin-bottom: 1.0em;
   padding: 0;
 }
 .sf-menu.sf-style-space-teal.sf-navbar {
@@ -1242,7 +1243,7 @@ body.page-search-content  .ds-2col > .group-left {
 }
 
 #toggle-wrapper a {
-	font-size: 0.75em;
+	font-size: 0.750em;
 }
 
 div.region-sidebar-second { /* adjust top margin so it lines up under title */
@@ -1266,6 +1267,19 @@ div.region-sidebar-second { /* adjust top margin so it lines up under title */
 .nav-button { /* hide the mobile navigation button by default */
 	display: none; 
 } 
+
+.top-anchor a {
+	font-size: 0.875em;
+}
+
+.up-arrow {
+	font-size: 1.0em;
+}
+
+.view-id-article_subpages h3 {
+	font-size: 1.250em;
+	padding-top: 0.5em;
+}
 
 
 
