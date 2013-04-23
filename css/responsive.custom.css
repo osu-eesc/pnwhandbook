@@ -292,10 +292,55 @@
 
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:760px) {
 
 		/* Mobile Styles - menu
 	-------------------------------------------------------- */
+
+	#page {
+		background: url("images/insect/page_bg_small.png") repeat-x 0 0 transparent;
+	}
+
+	#header-wrapper {
+		background: url("images/insect/page_bg_small.png") repeat-x 0 0 transparent;
+		border-bottom: none;
+	}
+
+		#draw-wrapper {
+		display: none;
+	}
+
+	#toggle-wrapper {
+		display: none !important;
+	}
+
+	#branding {
+		/*display: none;*/
+		margin: 14px 0 0 0;
+		float: right !important;
+	}
+
+	#logo {
+		/*display: none;*/
+		padding: 0 0 10px 0;
+	}
+
+	img.site-logo {
+		max-width: 100px;
+	}
+
+		div.view-homepage-photo {
+		width: 120px;
+	}
+	
+	.hl-l .region-header {
+		float: left;
+		margin: 0;
+	}
+
+	.view-related-images {
+    width: 120px;
+	}
 
 	#block-superfish-1 { /*don't display superfish on small screens*/
 		display: none;
@@ -303,6 +348,7 @@
 
 	#header-wrapper header {
     margin: 0 !important;
+    max-height: 60px;
 	}
 
 	nav#block-system-main-menu
@@ -328,17 +374,22 @@
     width: 100px;
 	}
 
+/*	#menu-bar {
+	background: transparent;
+}*/
+
 
 		/* Navigation Button
 	-------------------------------------------------------- */
 
 	.nav-button {
 		display: block;
-		position: absolute;
-		top: 10px;
-		left: 10px;
+		position: inherit;
+		/*top: 7px;
+		left: 7px;*/
 		width: 50px;
 		height: 35px;
+		margin-left: 10px;
 		background: url('images/menu-icon-large.png'), -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
 		background: url('images/menu-icon-large.png'),    -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
 		background: url('images/menu-icon-large.png'),     -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
@@ -369,38 +420,35 @@
 		background-size: 21px, 100%;
 	}
 
+
 	/* Navigation Bar
 	-------------------------------------------------------- */
+
+	/*body { padding-top: 50px; } */
 
 	#block-system-main-menu .menu {
 		width: 100%;
 		float: none;
-		/*background-color: #238be3;*/ /* change the menu color */
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
-		background-image:    -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
-		background-image:     -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
-		background-image:      -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
 		display: block;
-		height: 50px;
+		height: 0;
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
-		box-shadow: 0 1px 2px rgba(0,0,0,.6);
+		box-shadow: none;
 		position: inherit;
-		/*top: 0px;
-		left: 0px;*/
+		top: 0px;
+		left: 0;
 		z-index: 998;
 		clear: both;
 	}
 
 	#block-system-main-menu .menu ul {
-		margin-top: -50px;
+		margin-top: 0;
 	}
 
 	#block-system-main-menu .menu li {
 		display: none;
 		width: 100%;
-		font-family: Arial;
 	}
 
 	#block-system-main-menu .menu li a {
@@ -408,8 +456,8 @@
 		display: block;
 		width: 90%;
 		padding: 10px 5%;
-		font-size: 14px;
-		font-weight: bold;
+		font-size: 1.0em;
+		font-weight: 500;
 		text-shadow: -1px -1px 0 rgba(0,0,0,.15);
 		color: white;
 		text-decoration: none;
@@ -418,12 +466,13 @@
 	}
 
 	#block-system-main-menu .menu li a:hover {
-		background-color: rgba(0,0,0,.5);
+		/*background-color: rgba(0,0,0,.5);*/
 		border-top-color: transparent;
 	}
 
-	#block-system-main-menu .menu > li:first-child {
+	#block-system-main-menu .menu > li li:first-child {
 		border-top: 1px solid rgba(0,0,0,.2);
+		padding-top: 0;
 	}
 
 	/* Toggle the navigation bar open  */
@@ -438,7 +487,7 @@
 	
 	/* Submenus – optional .parent class indicates dropdowns */
 	#block-system-main-menu .menu > li:hover > a {
-		background: rgba(0,0,0,.5);
+
 		border-bottom-color: transparent;
 	}
 
@@ -448,21 +497,25 @@
 		float: right;
 	}
 
-	#block-system-main-menu .menu li.expanded > a:hover {
-		background: rgba(0,0,0,.75);
+	#block-system-main-menu .menu li.expanded > ul li a:hover {
+		background: rgba(151,48,41,.5);
 	}
 
 	#block-system-main-menu .menu li ul {
 		display: none;
-		background: rgba(0,0,0,.5);
-		border-top: 0 none;
+		background: rgba(151,48,41,.5);
+		/*border-top: 0 none;*/
 		padding: 0;
+	}
+
+	#block-system-main-menu .menu li ul li {
+		background: rgba(0,0,0,.5);
 	}
 
 	#block-system-main-menu .menu li ul a {
 		border: 0 none;
-		font-size: 12px;
-		padding: 10px 5%;
+		font-size: 0.875em;
+		padding: 10px 10%;
 		font-weight: normal;
 	}
 
