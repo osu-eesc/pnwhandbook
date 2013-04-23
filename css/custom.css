@@ -471,7 +471,7 @@ margin : 0px 0px 2px 43px;
 p.subhead2,
 p.Contributors-Head { 
 	font-weight : 500;
-	font-size: 1.313em;
+	font-size: 1.125em;
 	margin-bottom: 0;
 }
 p.crop-and-pest-name { 
@@ -1282,7 +1282,7 @@ div.region-sidebar-second { /* adjust top margin so it lines up under title */
 
 #block-sharethis-sharethis-block {
 	float: right;
-	margin-bottom: 0;
+	margin: 10px 0 0;
 }
 
 #messages-help-wrapper {
