@@ -21,8 +21,8 @@
 
  #breadcrumb {
  	font-size: 0.875em;
-  margin-bottom: 0em;
-  padding-bottom: 0.500em;
+  margin-bottom: 0;
+  padding-bottom: 0;
   padding-top: 0;
  }
 
@@ -994,9 +994,13 @@ div.view-related-links ul li {
 	/*border-bottom: 1px solid #616161;*/
 }
 
+div..views-field-field-image-description {
+	line-height: 1.1;
+}
 div.c-name {
 	font-size: 1.188em;
 	font-weight: 500;
+	line-height: 1.1;
 }
 
 /*div.caption {
@@ -1007,11 +1011,13 @@ div.c-name {
 
 div span.detail-3-4 {
 	font-style: italic;
+	line-height: 1.1;
 }
 
 div .c-description {
 	font-size: 0.875em;
 	font-weight: normal;
+	line-height: 1.1;
 }
 
 div.view-related-content table.views-table tbody tr td {
@@ -1282,7 +1288,24 @@ div.region-sidebar-second { /* adjust top margin so it lines up under title */
 
 #block-sharethis-sharethis-block {
 	float: right;
+	margin-top: 5px;
+}
+
+#block-sharethis-sharethis-block.block {
+	margin-bottom: 0;
+}
+
+
+#search-block-form {
 	margin: 10px 0 0;
+	/*position: relative;*/
+	/*top: -30px;*/
+	/*left: 10px;*/
+	/*display: inline;*/
+}
+
+#block-search-form.block {
+	margin-bottom: 0;
 }
 
 #messages-help-wrapper {
@@ -1292,6 +1315,10 @@ div.region-sidebar-second { /* adjust top margin so it lines up under title */
 #messages-help-wrapper .error {
 	display: none;
 }
+
+
+
+
 
 
 

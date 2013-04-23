@@ -37,40 +37,39 @@ function pnwhandbook_process_page(&$vars) {
  * Override or insert variables into the node templates.
  */
 
-//function pnwhandbook_preprocess_node(&$variables) {
-	//dpm($variables, '$variables');
+// function pnwhandbook_preprocess_node(&$variables) {
+// 	dpm($variables, '$variables');
 
-	//$variables['field_styled_title'][0]['value'] = $variables['title_attributes_array']['class'][];
-	//$variables['title_attributes_array']['class'][] = 'field_styled_title';
+// 	$variables['field_styled_title'][0]['value'] = $variables['title_attributes_array']['class'][];
+// 	$variables['title_attributes_array']['class'][] = 'field_styled_title';
 	
-	// if ($vars['field_styled_title'][0]['value']) {
+// 	if ($vars['field_styled_title'][0]['value']) {
 		
-	// 	$vars['title'] =  $vars['field_styled_title'][0]['value'];
+// 		$vars['title'] =  $vars['field_styled_title'][0]['value'];
 
-	// }
+// 	}
 	
-//}
+// }
 
-//function pnwhandbook_preprocess_page(&$variables) {
-	//dpm($variables, '$variables');
-
-	//$search_box = drupal_render(drupal_get_form('search_form'));
-  //$variables['search_box'] = $search_box;
+function pnwhandbook_preprocess_page(&$variables) {
 	
-	//$variables['title_attributes_array']['class'][] = $variables['field_styled_title'][0]['value'];
-	// dpm(field_get_items('node', $variables['node'], 'field_styled_title', '0', 'value'), 'styled title array');
-
-	// dpm(field_get_items('node', $variables['node'], 'title#', '0', '#items'), 'title array');
-
-	// dpm($variables['page']['content']['system_main']['nodes'][732]['title'][0]['#markup'], 'current title');
-	// dpm(field_get_items('node', $variables['node'], 'field_styled_title[0]['value']'));
-	//if (field_get_items('node', $variables['node'], 'field_styled_title')) {
-
-		//$variables['title'] =  'some new title name';
-
-	// }
+	// $search_box = drupal_render(drupal_get_form('search_form'));
 	
-//}
+ //  $variables['search_box'] = $search_box;
+
+  // $search_box_block = drupal_render(drupal_get_form('search_form_block'));
+  // $variables['search_box_block'] = $search_box_block;
+	
+	$detect = mobile_detect_get_object();
+  $is_tablet = $detect->isTablet();
+  $is_mobile = $detect->isMobile();
+
+  $variables['is_tablet'] = $is_tablet;
+	$variables['is_mobile'] = $is_mobile;
+
+	//dpm($variables['search_box_block'], 'search box block');
+
+}
 
 
 

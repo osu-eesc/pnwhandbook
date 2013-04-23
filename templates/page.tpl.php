@@ -32,16 +32,12 @@
                 </div>
               <?php endif; ?>
 
-              <?php if ($site_name || $site_slogan): ?>
+              <?php if ($site_name): ?>
                 <!-- start: Site name and Slogan hgroup -->
                 <hgroup id="name-and-slogan"<?php print $hgroup_attributes; ?>>
 
                   <?php if ($site_name): ?>
                     <h1 id="site-name"<?php print $site_name_attributes; ?>><?php print $site_name; ?></h1>
-                  <?php endif; ?>
-
-                  <?php if ($site_slogan): ?>
-                    <h2 id="site-slogan"<?php print $site_slogan_attributes; ?>><?php print $site_slogan; ?></h2>
                   <?php endif; ?>
 
                 </hgroup><!-- /end #name-and-slogan -->
@@ -75,8 +71,13 @@
 
       <?php if ($messages || $page['help']): ?>
         <div id="messages-help-wrapper" class="clearfix">
+          
           <?php print $messages; ?>
+
           <?php print render($page['help']); ?>
+
+            <?php //print $variables['search_box']; ?>
+
         </div>
       <?php endif; ?>
 
@@ -159,7 +160,7 @@
 
             </div>
           </div>
-
+        
           <?php print render($page['sidebar_first']); ?>
           <?php print render($page['sidebar_second']); ?>
 
