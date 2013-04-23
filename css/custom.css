@@ -1289,5 +1289,10 @@ div.region-sidebar-second { /* adjust top margin so it lines up under title */
 	margin-bottom: 0;
 }
 
+#messages-help-wrapper .error {
+	display: none;
+}
+
+
 
 
