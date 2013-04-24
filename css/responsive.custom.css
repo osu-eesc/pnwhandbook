@@ -427,10 +427,10 @@
 		display: inline-block;
 		position: inherit;
 		/*top: 7px;*/
-		left: 50px;
+		left: 0;
 		width: 50px;
 		height: 35px;
-		margin-left: 10px;
+		margin-left: 0.500em;
 		background: url('images/folder-icon.png'), -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
 		background: url('images/folder-icon.png'),    -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
 		background: url('images/folder-icon.png'),     -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));

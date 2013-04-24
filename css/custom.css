@@ -1289,10 +1289,6 @@ div.region-sidebar-second { /* adjust top margin so it lines up under title */
 	font-size: 0.875em;
 }
 
-.up-arrow {
-	background: url("images/arrow-up.png") no-repeat 0 0 transparent;
-}
-
 .view-id-article_subpages h3 {
 	font-size: 1.250em;
 	padding-top: 0.5em;

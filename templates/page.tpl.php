@@ -50,7 +50,16 @@
           <?php print render($page['header']); ?>
 
           <?php if ($page['menu_bar']): ?>
-            <div id="menu-wrapper"><?php print render($page['menu_bar']); ?></div>
+            <div id="menu-wrapper">
+
+              <?php if (isset($is_mobile) && $is_mobile): ?>
+                <button id="menu-icon" class="nav-button"></button>
+                <button id="folder-icon" class="folder-button"></button>
+              <?php endif; ?>
+
+              <?php print render($page['menu_bar']); ?>
+              
+            </div>
           <?php endif; ?>
 
         </header>
@@ -158,7 +167,7 @@
 
             </div>
           </div>
-          
+
           <a name="sidebar"></a>
 
           <?php print render($page['sidebar_first']); ?>
