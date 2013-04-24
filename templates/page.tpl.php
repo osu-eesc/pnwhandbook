@@ -54,7 +54,9 @@
 
               <?php if (isset($is_mobile) && $is_mobile): ?>
                 <button id="menu-icon" class="nav-button"></button>
-                <button id="folder-icon" class="folder-button"></button>
+                <?php if ($page['sidebar_first']): ?> 
+                  <button id="folder-icon" class="folder-button"></button>
+                <?php endif; ?>
               <?php endif; ?>
 
               <?php print render($page['menu_bar']); ?>

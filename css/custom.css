@@ -22,13 +22,10 @@
  #breadcrumb {
  	font-size: 0.875em;
   margin-bottom: 0;
-  padding-bottom: 0.250em;
+  padding-bottom: 0.500em;
   padding-top: 0;
  }
 
-.front .field-name-title {
-	display: none;
-}
 
 /*  note: this should match the h2 title style */
 .field-name-field-styled-title,
@@ -59,9 +56,9 @@ h2.title {
 	margin: 0 20px 15px 20px;
 }
 
-
-div.three-3x33 {
- 
+/* hide search form on search page */
+.page-search-content #search-form {
+	display: none;
 }
 
 #page-footer {
@@ -882,9 +879,9 @@ fieldset#node_page_full_group_author_date  {
 
 
 /* homepage photo block */
-#block-views-homepage-photo-homepage-photo,
+#block-views-homepage-photo-homepage-photo.block,
 div.view-homepage-photo {
-	position: relative;
+	margin-bottom: 0;
 }
 
 .copyright {
