@@ -76,8 +76,6 @@
 
           <?php print render($page['help']); ?>
 
-            <?php //print $variables['search_box']; ?>
-
         </div>
       <?php endif; ?>
 
@@ -160,11 +158,15 @@
 
             </div>
           </div>
+          
           <a name="sidebar"></a>
+
           <?php print render($page['sidebar_first']); ?>
-           <div class="top-anchor related-content">
+           <?php if (isset($is_mobile) && $is_mobile): ?>
+            <div class="top-anchor related-content">
               <a title="Top of page" href="#page">Back to top</a>
-           </div>
+            </div>
+           <?php endif; ?>
           <?php print render($page['sidebar_second']); ?>
 
         </div>
