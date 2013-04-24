@@ -383,7 +383,7 @@
 	-------------------------------------------------------- */
 
 	.nav-button {
-		display: block;
+		display: inline-block;
 		position: inherit;
 		/*top: 7px;
 		left: 7px;*/
@@ -419,6 +419,38 @@
 		background-repeat: no-repeat;
 		background-size: 21px, 100%;
 	}
+
+	/* Folder Button
+	-------------------------------------------------------- */
+
+	.folder-button {
+		display: inline-block;
+		position: inherit;
+		/*top: 7px;*/
+		left: 50px;
+		width: 50px;
+		height: 35px;
+		margin-left: 10px;
+		background: url('images/folder-icon.png'), -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('images/folder-icon.png'),    -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('images/folder-icon.png'),     -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('images/folder-icon.png'),      -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 32px, 100%;
+		cursor: pointer;
+		border: 0 none;
+		border-bottom: 1px solid rgba(255,255,255,.1);
+		box-shadow: 0 0 4px rgba(0,0,0,.7) inset;
+		border-radius: 5px;
+		z-index: 999;
+		text-indent: -9999px;
+	}
+
+	.folder-button:hover { 
+		background-color: rgba(0,0,0,.1); 
+	}
+
 
 
 	/* Navigation Bar

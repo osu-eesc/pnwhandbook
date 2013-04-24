@@ -150,7 +150,7 @@
                   </div>
 
                   <div class="top-anchor">
-                    <a title="Top of page" href="#page">Back to top <span class="up-arrow">&#8679;</span></a>
+                    <a title="Top of page" href="#page">Back to top</a>
                   </div>
                 <?php endif; ?>
 
@@ -160,8 +160,11 @@
 
             </div>
           </div>
-        
+          <a name="sidebar"></a>
           <?php print render($page['sidebar_first']); ?>
+           <div class="top-anchor related-content">
+              <a title="Top of page" href="#page">Back to top</a>
+           </div>
           <?php print render($page['sidebar_second']); ?>
 
         </div>
