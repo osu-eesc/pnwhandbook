@@ -9,8 +9,6 @@
  	background: #6d2d23;
  }*/
 
-
-
  #content-wrapper {
    border-top: none;
 }
@@ -23,9 +21,14 @@
  	font-size: 0.875em;
   margin-bottom: 0;
   padding-bottom: 0.500em;
-  padding-top: 0;
+  padding-top: 0.500em;
  }
 
+/*  hide breadcrumbs on search page */
+.page-search-content #breadcrumb,
+.front #breadcrumb {
+	display: none;
+}
 
 /*  note: this should match the h2 title style */
 .field-name-field-styled-title,
