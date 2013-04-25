@@ -30,6 +30,11 @@
 	display: none;
 }
 
+.front #messages-help-wrapper,
+.page-search-content #messages-help-wrapper {
+	margin-bottom: 0.875em;
+}
+
 /*  note: this should match the h2 title style */
 .field-name-field-styled-title,
 h2.title {
