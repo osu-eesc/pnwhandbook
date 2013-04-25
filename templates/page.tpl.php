@@ -52,12 +52,14 @@
           <?php if ($page['menu_bar']): ?>
             <div id="menu-wrapper">
 
-              <?php if (isset($is_mobile) && $is_mobile): ?>
-                <button id="menu-icon" class="nav-button"></button>
+              <?php //if (isset($is_mobile) && $is_mobile): ?>
+                <button type="button" id="menu-icon" class="nav-button"></button>
                 <?php if ($page['sidebar_first']): ?> 
-                  <button id="folder-icon" class="folder-button"></button>
+                  <a title="More information" id="folder-icon" class="folder-button" href="#sidebar">More</a>
                 <?php endif; ?>
-              <?php endif; ?>
+              <?php //endif; ?>
+              
+              
 
               <?php print render($page['menu_bar']); ?>
               
@@ -170,7 +172,7 @@
             </div>
           </div>
 
-          <a name="sidebar"></a>
+          <a id="sidebar"></a>
 
           <?php print render($page['sidebar_first']); ?>
            <?php if (isset($is_mobile) && $is_mobile): ?>

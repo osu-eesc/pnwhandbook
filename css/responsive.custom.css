@@ -36,6 +36,10 @@
 		display: none;
 	}
 
+	#folder-icon {
+		display: none;
+	}
+
 }
 /* Tablet landscape */
 @media only screen and (min-width:769px) and (max-width:1024px) {
@@ -85,6 +89,10 @@
 
 	/* hide on destop/tablet*/
 	#block-system-main-menu {
+		display: none;
+	}
+
+	#folder-icon {
 		display: none;
 	}
 
@@ -147,6 +155,10 @@
 
 	/* hide on destop/tablet*/
 	#block-system-main-menu {
+		display: none;
+	}
+
+	#folder-icon {
 		display: none;
 	}
 
@@ -438,10 +450,10 @@
 	.folder-button {
 		display: inline-block;
 		position: inherit;
-		/*top: 7px;*/
+		top: 5px;
 		left: 0;
 		width: 50px;
-		height: 35px;
+		height: 33px;
 		margin-left: 0.500em;
 		background: url('images/folder-icon.png'), -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
 		background: url('images/folder-icon.png'),    -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
@@ -455,7 +467,7 @@
 		border-bottom: 1px solid rgba(255,255,255,.1);
 		box-shadow: 0 0 4px rgba(0,0,0,.7) inset;
 		border-radius: 5px;
-		z-index: 999;
+		z-index: 995;
 		text-indent: -9999px;
 	}
 
