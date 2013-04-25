@@ -52,12 +52,12 @@
           <?php if ($page['menu_bar']): ?>
             <div id="menu-wrapper">
 
-              <?php //if (isset($is_mobile) && $is_mobile): ?>
+              <?php if (isset($is_mobile) && $is_mobile): ?>
                 <button type="button" id="menu-icon" class="nav-button"></button>
                 <?php if ($page['sidebar_first']): ?> 
                   <a title="More information" id="folder-icon" class="folder-button" href="#sidebar">More</a>
                 <?php endif; ?>
-              <?php //endif; ?>
+              <?php endif; ?>
               
               
 
