@@ -1309,6 +1309,11 @@ div.region-sidebar-second { /* adjust top margin so it lines up under title */
 	margin-bottom: 0;
 }
 
+#search-block-form input {
+	color: #ababab;
+	margin-bottom: -0.500em;
+}
+
 #messages-help-wrapper {
 	margin-bottom: 0.375em;
 }
