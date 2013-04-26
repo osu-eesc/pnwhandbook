@@ -1287,9 +1287,10 @@ div.region-sidebar-second { /* adjust top margin so it lines up under title */
 }
 
 .top-anchor  {
-	background: url("images/arrow-up.png") no-repeat 5.000em 0.500em transparent;
+	padding-left: 14px;
+	background: url("images/arrow-up.png") no-repeat 0 10px transparent;
 }
-
+	
 .top-anchor a {
 	font-size: 0.875em;
 }
