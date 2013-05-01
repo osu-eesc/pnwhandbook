@@ -39,7 +39,7 @@
 .field-name-field-styled-title,
 h2.title {
 	font-size: 1.250em;
-	font-weight : bold;	
+	font-weight: bold;	
 	line-height: 1.2;
 }
 
@@ -309,18 +309,18 @@ vertical-align : sub;
 font-size: .875em;
 }
 .bold { 
-font-weight : 500;
+font-weight: bold;
 
 }
 .italic { 
 font-style : italic;
-font-weight : 400;
+font-weight: 400;
 
 }
 .bold-italic { 
-font-weight : 500;
+font-weight: bold;
 font-style : italic;
-font-weight : 500;
+font-weight: bold;
 }
 
 
@@ -335,21 +335,21 @@ margin : 0px;
 
 }
 p.table-title { 
-font-weight : 500;
+font-weight: bold;
 text-align : left;
 text-indent : 0px;
 margin : 12px 0px 6px 0px;
 
 }
 p.table-column-head { 
-font-weight : 500;
+font-weight: bold;
 text-align : center;
 text-indent : 0px;
 margin : 12px 0px 3px 0px;
 
 }
 p.table-row-head { 
-font-weight : 500;
+font-weight: bold;
 font-size : 0.688em;
 text-align : center;
 text-indent : 0px;
@@ -380,7 +380,7 @@ text-indent : 0px;
 
 }
 p.Index-Title { 
-font-weight : 500;
+font-weight: bold;
 text-align : left;
 text-indent : 0px;
 margin : 0px 0px 18px 0px;
@@ -394,7 +394,7 @@ margin : 0px 0px 0px 40px;
 
 }
 p.Index-Alpha-Header--w-line- { 
-font-weight : 500;
+font-weight: bold;
 font-size : 1.500em;
 text-align : left;
 text-indent : 0px;
@@ -402,7 +402,7 @@ margin : 18px 0px 6px 0px;
 
 }
 p.Index-Level-1 { 
-font-weight : 500;
+font-weight: bold;
 text-align : left;
 text-indent : -28px;
 margin : 5px 0px 0px 28px;
@@ -415,7 +415,7 @@ margin : 0px 0px 0px 29px;
 
 }
 p.TOC-Header { 
-font-weight : 500;
+font-weight: bold;
 font-size : 1.125em;
 text-align : center;
 text-indent : 0px;
@@ -431,7 +431,7 @@ margin : 0px;
 
 }
 p.TOC-Section-Head { 
-font-weight : 500;
+font-weight: bold;
 line-height : 1.11;
 text-align : left;
 text-indent : 0px;
@@ -454,7 +454,7 @@ margin : 0px;
 
 }
 p.Contributors-Head { 
-font-weight : 500;
+font-weight: bold;
 font-size : 1.188em;
 text-align : left;
 text-indent : 0px;
@@ -475,12 +475,12 @@ margin : 0px 0px 2px 43px;
 }
 p.subhead2,
 p.Contributors-Head { 
-	font-weight : 500;
+	font-weight: bold;
 	font-size: 1.125em;
 	margin-bottom: 0;
 }
 p.crop-and-pest-name { 
-font-weight : 500;
+font-weight: bold;
 text-align : left;
 text-indent : 0px;
 margin : 12px 0px 2px 0px;
@@ -501,7 +501,7 @@ margin-bottom : 1px;
 p.Includes,
 p.mgmt-head,
 p.nursery-pests { 
-font-weight : bold;
+font-weight: bold;
 font-size: 1.125em;
 margin-bottom: 0;
 }
@@ -513,7 +513,7 @@ margin-bottom: 0;
 }
 p.subhead3,
 p.subhead-xmas-tree { 
-font-weight : 500;
+font-weight: bold;
 font-size: 1.313em;
 
 }
@@ -528,14 +528,14 @@ margin-bottom : 0px;
 
 }
 p.chapter-head { 
-font-weight : 500;
+font-weight: bold;
 text-align : left;
 text-indent : 0px;
 margin : 18px 0px 12px 0px;
 
 }
 p.section-head-w-line { 
-font-weight : 500;
+font-weight: bold;
 font-size : 1.188em;
 text-align : left;
 text-indent : 0px;
@@ -573,7 +573,7 @@ margin : 0px;
 
 }
 p.INCLUDES-MANAGEMENT-OPTIONS { 
-font-weight : 500;
+font-weight: bold;
 font-style : italic;
 text-align : left;
 text-indent : 0px;
@@ -581,7 +581,7 @@ margin : 0px;
 
 }
 p.APPLESTAGE { 
-font-weight : 500;
+font-weight: bold;
 font-style : italic;
 font-size: 1.125em;
 text-transform: uppercase;
@@ -595,14 +595,14 @@ margin : 0px;
 }
 p.subhead3 { 
 	font-size: 1.188em;
-	font-weight : bold;
+	font-weight: bold;
 	margin-bottom: 0;
 }
 
 p.subhead4,
 p.subhead4--with-rule-below- { 
 	font-size: 1.125em;
-	font-weight : bold;
+	font-weight: bold;
 	margin-bottom: 0;
 }
 p.indented-list--no-numbers- { 
@@ -744,7 +744,7 @@ article header {
 
 /*  insect table styles */
 p.table-title {
-	font-weight : 500;
+	font-weight: bold;
 	font-style : normal;
 	font-size : 0.813em;
 	text-decoration : none;
@@ -756,7 +756,7 @@ p.table-title {
 	margin : 12px 0px 9px 0px;
 }
 p.table-column-head {
-	font-weight : 500;
+	font-weight: bold;
 	font-style : normal;
 	font-size : 0.750em;
 	text-decoration : none;
@@ -768,7 +768,7 @@ p.table-column-head {
 	margin : 12px 0px 3px 0px;
 }
 p.table-row-head {
-	font-weight : 500;
+	font-weight: bold;
 	font-style : normal;
 	font-size : 0.750em;
 	text-decoration : none;
@@ -780,7 +780,7 @@ p.table-row-head {
 	margin : 12px 0px 3px 0px;
 }
 p.table-text {
-	font-weight : normal;
+	font-weight: normal;
 	font-style : normal;
 	font-size : 0.750em;
 	text-decoration : none;
@@ -799,7 +799,7 @@ p.table-text-centered {
 }
 
 p.table-footnote {
-	font-weight : normal;
+	font-weight: normal;
 	font-style : normal;
 	font-size : 0.688em;
 	text-decoration : none;
@@ -812,7 +812,7 @@ p.table-footnote {
 }
 
 p.table-column-head-left {
-	font-weight : 500;
+	font-weight: bold;
 	font-style : normal;
 	font-size : 0.750em;
 	text-decoration : none;
@@ -824,7 +824,7 @@ p.table-column-head-left {
 	margin : 12px 0px 3px 0px;
 }
 p.table-row-head-left {
-	font-weight : 500;
+	font-weight: bold;
 	font-style : normal;
 	font-size : 0.750em;
 	text-decoration : none;
@@ -1004,7 +1004,7 @@ div..views-field-field-image-description {
 }
 div.c-name {
 	font-size: 1.188em;
-	font-weight : bold;
+	font-weight: bold;
 	line-height: 1.1;
 }
 
@@ -1036,7 +1036,7 @@ div.view-related-content table.views-table tbody tr td {
 div.view-id-section_contents div.view-header {
 	margin-top: 1em;
 	font-size: 1.125em;
-	font-weight : bold;
+	font-weight: bold;
 }
 
 div.view-id-section_contents table.views-table tbody, thead, tfoot, tr, td, th {
