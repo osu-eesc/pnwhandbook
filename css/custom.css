@@ -640,9 +640,16 @@ border-collapse : collapse;
 border-width : 1px;
 border-style : solid;
 border-margin-top : 4px;
-margin-bottom : -4px;
+/*margin-bottom : -4px;*/
 
 }
+
+/* change the width on node 848 */
+.page-node-848 table.No-Table-Style { 
+	width: 70%;
+}
+
+
 table.Aphids-and-Adelgids-Table { 
   width: 100%;
   border: 1px solid #000;
