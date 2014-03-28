@@ -52,14 +52,9 @@
           <?php if ($page['menu_bar']): ?>
             <div id="menu-wrapper">
 
-              <?php if (isset($is_mobile) && $is_mobile): ?>
-                <button type="button" id="menu-icon" class="nav-button"></button>
-                <?php if ($page['sidebar_first']): ?> 
-                  <a title="More information" id="folder-icon" class="folder-button" href="#sidebar">More</a>
-                <?php endif; ?>
-              <?php endif; ?>
-              
-              
+              <button type="button" id="menu-icon" class="nav-button"></button>
+                
+                <a rel="next" title="More information" id="folder-icon" class="folder-button" href="#sidebar">More</a>
 
               <?php print render($page['menu_bar']); ?>
               
@@ -160,9 +155,15 @@
                     <?php print $content; ?>
                   </div>
 
-                  <div class="top-anchor">
-                    <a title="Top of page" href="#page">Back to top</a>
-                  </div>
+
+                  <a id="sidebar"></a>
+
+                  <?php if (isset($is_tablet) && $is_tablet): ?>
+                    <div class="top-anchor">
+                      <a title="Top of page" href="#page">Back to top</a>
+                    </div>
+                  <?php endif; ?>
+
                 <?php endif; ?>
 
               </<?php print $tag; ?>>
@@ -170,19 +171,28 @@
               <?php print render($page['content_aside']); ?>
 
             </div>
+
+
+
           </div>
 
-          <a id="sidebar"></a>
 
           <?php print render($page['sidebar_first']); ?>
-           <?php if (isset($is_mobile) && $is_mobile): ?>
+
+
+          <?php if ((isset($is_mobile) && $is_mobile) && !$is_tablet): ?>
+
             <div class="top-anchor related-content">
               <a title="Top of page" href="#page">Back to top</a>
             </div>
-           <?php endif; ?>
+
+          <?php endif; ?>
+
+           
           <?php print render($page['sidebar_second']); ?>
 
         </div>
+
       </div>
 
       <?php if ($page['tertiary_content']): ?>

@@ -987,7 +987,7 @@ table#draggableviews-table-related_images-reorder_images.views-table tbody tr td
 /* links array style */
  ul.links {
  	list-style-type: none;
- 	margin: 4em 0 0;
+ 	margin: 2em 0 0;
  	text-align: left;
  }
 
@@ -1338,13 +1338,3 @@ div.region-sidebar-second { /* adjust top margin so it lines up under title */
 #messages-help-wrapper .error {
 	display: none;
 }
-
-
-
-
-
-
-
-
-
-
