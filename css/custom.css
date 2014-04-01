@@ -893,6 +893,12 @@ fieldset#node_page_full_group_author_date  {
 	margin-bottom: 10px;
 }
 
+/* add margin to sidebar */
+.region-sidebar-first .region-inner {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 
 /* homepage photo block */
 #block-views-homepage-photo-homepage-photo.block,
@@ -1296,8 +1302,10 @@ div.region-sidebar-second { /* adjust top margin so it lines up under title */
 
 .top-anchor  {
 	padding-left: 14px;
-	background: url("images/arrow-up.png") no-repeat 0 10px transparent;
+	background: url("images/arrow-up.png") no-repeat scroll left center rgba(0, 0, 0, 0);
 }
+
+
 	
 .top-anchor a {
 	font-size: 0.875em;
